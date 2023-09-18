@@ -1,0 +1,23 @@
+200 OK: The request has succeeded.
+
+201 Created: The request has been fulfilled and a new resource has been created.
+
+204 No Content: The server has fulfilled the request, but there is no content to send back.
+
+301 Moved Permanently: The requested resource has been moved to a new URL permanently.
+
+302 Found: The requested resource has been found, but it has been temporarily moved to a new URL.
+
+304 Not Modified: The requested resource has not been modified since the last request.
+
+400 Bad Request: The server could not understand the request due to invalid syntax.
+
+401 Unauthorized: The client must authenticate itself to get the requested response.
+
+403 Forbidden: The client does not have access rights to the content.
+
+404 Not Found: The requested resource could not be found.
+
+500 Internal Server Error: A generic error message, given when an unexpected condition was encountered by the server.
+
+503 Service Unavailable: The server is currently unavailable (due to maintenance or overload) and cannot handle the request.

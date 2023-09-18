@@ -1,0 +1,88 @@
+when to usd redux
+
+Big APplication
+High frequency of state of change
+
+redux pattern
+ in redux three thing melkay make new state
+ 
+ prev state
+ payload 
+ action
+ 14:00
+ 
+ middleware
+ npm i redux-logger
+ // it give  prev state 
+ // it give action 
+ // it give next state
+  applyMiddleware(logger,thunk)||
+  
+  action can be a simple object it can not be handle async programing  
+  for a specific work it can be stop and get that disptach again that this thing give us 
+  provide redux-thunk
+  and we need change the code
+  inside dispatch we can call this not this dispatch(incr())
+  dispatch(incr)
+   and async thunk give inside dispatch(incr) function
+  give this
+  
+  async function incr(dispatch ,getState)
+ {
+ data await
+ return {type:init,payload:data}
+ 
+ }
+ 
+ 1:00s
+ 
+ 
+ inside store we have three thing
+ (1) state {is a object or nested object it how much nest it depend the how much reducer  }
+ (2) reducer
+ (3) dispatch
+ how work store
+ store tell you directly state using usegetstate()
+ when we want to change the state the we called the dispatch sa we sent action to the reducer 
+ combination of reducer and action it can create new state in the mid of present middleware
+ 
+ 
+ 
+ 2:10  
+ 
+ 
+ redux toolkit
+ it create automatically action creater
+ it give you a reducer .reduxer with expect the redux
+ give utilize of slices===reducer
+ 
+ 
+ 
+ const bounce=createSlice({
+ //here the name is similar to "here/reducerInsideName" beffore
+ name:"increment" //const incre="increment/appp"
+ 
+ })
+ 
+ 
+ 
+ const store=configureStore({ // it is similar to  combine reducer
+ 
+ reducer:{
+ 
+ }
+ })
+ 
+ 3:36
+ using create reducer and create action we can create coustom reducer and action  
+ 
+ 
+ extraReducer add additional 
+ 
+ 
+ 
+ 
+ createAsync thunk
+ 
+ for api fetch
+ //rtk querry

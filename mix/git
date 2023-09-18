@@ -1,0 +1,117 @@
+git is a software it is install locally on a system
+git is maintain by linux
+git is version control system kab kis na kia chages kiyaa
+git has user mangamend system 
+ github is a service which is host on web exulately cloud base
+ github is maintain by microsoft
+ github has user management system
+ 
+ github  is hosting servic e for git repository
+ 
+ 
+ 
+Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues
+ 
+ github desktop
+ 
+ 
+ git config --global user.name faizan
+ git config --global user.email ema
+ git add -A
+ git commit -m 'your message'
+ 
+ git log -p -6 
+ 
+ git status  it tell that  who  branch  are in present and 
+ git diff
+is a diff tool what is diff tool (tell me what are differnce give file to another file)
+working tree compare the staging area
+ 
+ git diff compare to the staging area and show what i remove and what i add
+ git diff --staged compare the last staging area  to compare last commit area 
+ git checkout
+ 
+ if we want to take the file directly to commit then we used this command
+ 
+ git commit -a -m
+ git rm 
+ it remove working directory and git staging area
+ if we want to only remove from git stage area then we used this command 
+ git rm --cached 
+ 
+git status
+git status -s
+
+
+if we want to the file extension  that had not go to staging area
+then we used *.html
+
+branches
+we create a own copy and here work
+gti branche brachName
+git branch -v to check current brach work
+git branch -a show how many braches are ava 
+to switch brached to go 
+get checkout brachname
+if we want to the brach can be make and switch this branch then we used this command
+git checkout -b branchname
+
+git init: Initializes an empty Git repository in the current directory.
+
+
+git clone: Creates a copy of a remote repository on your local machine.
+
+git add: Adds changes in your working directory to the staging area.
+
+git commit: Saves changes from the staging area to the repository.
+
+git push: Sends committed changes from your local repository to the remote repository.
+
+git pull: Retrieves changes from the remote repository and merges them with your local repository.
+
+git branch: Lists all local branches in the repository.
+
+git checkout: Switches between different branches or commits.
+
+git merge: Combines changes from different branches into a single branch.
+
+git status: Displays the current status of your repository.
+
+git log: Displays a list of all commits in the repository.
+
+git remote: Lists all remote repositories linked to your local repository.
+
+
+
+
+
+
+github
+
+remote mean ak asa url jaha pa apni repository ko send karta hay
+git remote -v 
+this command tell you which command is used to fetch and push
+git remote rm origin
+faizan@faizan-HP-ProBook-640-G2:/media/faizan/50DE81A3DE8181C8/github$ 
+
+git remote rm origin
+
+
+
+
+
+
+read write access
+git remote set-url origin
+git remote
+git push -u origin master
+
+
+
+
+
+
+
+
+
+

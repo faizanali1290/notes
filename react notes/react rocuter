@@ -1,0 +1,29 @@
+react router Dom 
+frist we have install react router-dom
+npm install react-router-dom@6
+and the we have import
+react app ko browser url sa connect karna k leya we need import browserRouter
+<BrowserRouter> <APp/></BrowserRouter>
+
+<Routes></Routes> mean path
+inside <Routes/> we can import this component
+<Routes><Route><Route path="/" element={<div>Home Page</div>}></Routes>
+<Outlet>
+
+page component 
+
+<link> component is similar to ancher tag
+<ul>
+
+<li>
+<link ='HOme'>
+<link ='about'>
+
+</li>
+
+
+
+</ul>
+
+
+

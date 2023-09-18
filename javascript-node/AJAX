@@ -1,0 +1,106 @@
+what is AJAX 
+AJAX stand for acychronous javascript XML used to send and recive data from client and server Acychronouly , different then regular HTTP request ,uses XMLHTTPrequest object carrier data xml,json,plain,text format
+
+
+way of AJAX
+
+regulalr AJAX request
+fetch API
+Axios library
+Jquery library
+node js http Module
+
+why we use AJAX
+No page  reload/refresh
+better user expereince
+saves netwok bandwidth
+veryinteractive
+
+how to it work
+
+AJAX uses XMLHTTPrequesto object (also  called xhr object ) to achive this
+
+data can be trasferred any format and protocol (NO always  https neccssairly)
+
+
+without import make website using js called vanilla js'
+
+
+here we can create request
+
+varaiableName=new XMLHTTPrequest()
+
+//open object
+varaiableName.open('mehod'('oprn),dataloction(faizan.txt),true(asynchronous))  in there tell where data can be found 
+
+
+//optional object
+
+varaiableName.onprogress(herefunction)  console.log(this.responseText)  //on progress method is used when we want to loddding time add spiner
+obejctname.onload()function
+
+onreadystatechange()
+if(thia.status===200) here 200 is the response code of http
+objectName.onreadystatechange()function    it has code
+
+
+
+here we can sent request
+
+
+objectname.send()
+
+
+post method
+
+objectnmae.getResponseHeader('content-type','application/x-www-form-urlencoded')
+  // param='"name=test","salary=123","age=23"';
+    param=`{"name:test","salary:123","age:23"}`;
+
+
+    xhr.send(param)
+    
+    how to recive post request data
+    
+
+https://jsonplaceholder.typicode.com/todos1
+
+
+
+
+
+
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+  
+  response.header()
+  .ok
+  .status
+  .JSON()
+  Json.stringfiy to convert object to string
+  json.parse() valid json string to convert object
+  .tetxt()
+  response.header () give response some header called response header
+  request.header() request header those header we can give in our request  such as athentication
+  http://dummy.restapiexample.com/api/v1/create
+  
+  
+  let f=fetch(url,{header:{}
+  })
+  
+  
+  let f=fetch(url,{
+  method:'post'
+  header:{"content-type":"application/json"
+  body:json.strify({
+  id='0-0'.
+  title="rgioer"
+in body we can sent post here we can set
+})}
+  
+  }
+  })
+  
+  
+  

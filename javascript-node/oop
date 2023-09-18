@@ -1,0 +1,61 @@
+Abstration hidding of internal detail
+Encapsulation collcetion of many things and made some things for exmple (we make laptop using motherboard hardisk wifi card )
+Inheritiance if we have make mobile and add some extra feature to make smart phone
+polymorphism (ak chees alak alak form  forexmple our phone camera ,ourphone smartphone ,call )
+
+
+
+prototype
+ objectName__proto__=objectName
+ constructor mean vho mehod jo hamesha chalga jab be object ko banaya jaya ga
+
+class classname(){
+constructor(Gname){
+this.name:Gname
+}
+function name(){}
+
+}
+class access
+
+let f=new classname(faizan)
+inheritence
+extend 
+
+mehod overridding
+supper keyword
+
+constructor method overriding
+
+
+
+
+
+oop is programing paradam(mean style,program style,functional programing)
+why we used oop
+we hide complexity and display simple which people can easy to understand
+
+
+
+
+get () is used to get direct value of contrctor
+set d(d) is used to set value of constrcuor in class
+intanseofoperaor is used to check it object belongs to the given class are not
+
+constructorNAme.prototype.anotherclass(){}
+objectliteral.__proto__anotherobjectliteral
+or 
+objectLiteral.__proto__=objectliteral another
+
+
+inheritence
+
+in calss the (extend) keyword is used to link another class
+
+
+in construcotr inheritece is used to 
+coustrcotrFUnctionName.call(enter a parameter)
+in constrctor function  the prototype can link
+
+parentPrototypeName.prototype.childparentNAme=object.create(parentAccountNAme.prototype)
+

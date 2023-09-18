@@ -1,0 +1,27 @@
+response.json()
+response.text()
+data insert 
+
+server data can be update to used (put)
+(delete)(get)
+
+body (insert those data who can be save karna ha such as (get,post,delete,put)) in can be any format such as {From Data, Json data, Text}
+ 
+header ka under ya pass karta ha jo be body ka throw server pa data beach nay wala ha vo kis format ma hoga 
+
+fetch (file/url,{
+method:'Post',
+body:'data',
+header:{
+
+'Content-Type':'application/json'  used to json format
+'Content-Type':'application/x-www-form-urlencoded' 
+
+}
+
+})
+
+
+(json.stringfiy)javascript obejct to convert JSON
+window.fetch(){}
+else{}

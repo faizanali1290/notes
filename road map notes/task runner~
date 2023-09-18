@@ -1,0 +1,35 @@
+
+ npm script is a command that can be executed via the command line using the npm run command. These scripts are defined in the "scripts" section of a project's package.json file.
+ 
+ 
+Module bundlers are tools that combine multiple JavaScript modules into a single file, allowing the browser to load the entire application with a single request. This can improve the performance and user experience of web applications, as it reduces the number of HTTP requests required to load the application
+
+On the other hand, a build tool is a more comprehensive tool that manages the entire build process of a software application
+
+
+A plugin, in the context of software development, is a modular component or extension that adds specific functionality or features to an existing software application or framework. 
+
+
+
+
+A build tool is a software tool  to automate the process of building, compiling, and packaging software applications. It assists developers in managing the build process, which involves transforming source code into an executable or deployable format.
+
+
+
+
+CSS architecture organizes and structures CSS code for improved maintainability and scalability using methodologies like BEM or SMACSS.
+
+
+
+
+A task runner is a software tool that automates repetitive tasks in a development workflow, such as compiling code, optimizing assets, and running tests.
+
+
+
+CSS vs. CSS-in-JS: How and why to use each - LogRocket Blog
+A CSS Module is a CSS file in which all the properties are scoped locally by default in the rendered CSS. JavaScript processes the CSS Module files further and encapsulates their style declarations to solve the scoping issue.
+
+
+CSS modules are a CSS framework that allows you to write CSS classes and animations that are locally scoped by default 
+
+

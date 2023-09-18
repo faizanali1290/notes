@@ -1,0 +1,9 @@
+in react
+refrencial equility
+when our page re render hota ha and the function re create
+
+
+memo is used to optimaization the performance . memo is used to re render component to stopping a
+
+and the component that time re render when the props value can be change
+export default memo(Childtodo)

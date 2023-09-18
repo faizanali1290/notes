@@ -1,0 +1,27 @@
+2 / 2
+
+For React.js, some popular libraries that are important to know include:
+
+Redux: A predictable state container for JavaScript apps, which helps manage application state and data flow.
+
+React Router: A routing library for React that helps manage navigation within a single-page application.
+
+Axios: A popular library for making HTTP requests in JavaScript, often used with React.
+
+Styled Components: A library for styling React components, which allows for modular and reusable styles.
+
+Formik: A library for managing forms in React, including form validation and submission.
+
+Reactstrap: A library for using Bootstrap with React, providing a set of pre-built UI components.
+
+For JavaScript, some important libraries to know include:
+
+Lodash: A utility library that provides a wide range of functions for working with arrays, objects, and strings.
+
+Moment.js: A library for working with dates and times in JavaScript, which provides a wide range of functions for formatting and parsing 
+Node.js: A server-side JavaScript runtime environment, which provides a wide range of APIs for working with the file system, HTTP, and other common server-side tasks.
+
+swipperjs
+validator
+zod
+

@@ -1,0 +1,185 @@
+to create sass
+sass variable
+$color:red
+
+sass nesting
+
+partials & import
+partials mean part (mean css ke file ka parts)
+_header.scss
+mixins
+
+@mixin mixins name ($value){
+  border-radius:$value;
+}
+abs{
+@include mixinsName(90px)
+
+extend
+if we have repeat some properties  
+.abc{
+color:red:
+font-size:30px;
+line:4px}
+.xyz{
+color:green
+@extend .abc
+ }
+ 
+ %abc{
+ color:red;
+ fonst-size:6px;
+ }
+ .xyz{
+ backgorund:blue;
+@extend %abc}
+it add the upper code abc here xyz
+this is called palce holder it can not be see on css file 
+
+
+operator in scss 
+there are five types of operator in sass
+equality
+== 
+!=
+
+relational
+
+numeric
+string
+boolean
+
+interpolation
+#{}
+if we want to perform mathematicall expression then we used interpolation
+margin-left:30xp
+we can not perform mathematicall operation left side but using of interpolation we can do it
+
+number
+@function funName($value){
+@return value/3 
+}
+
+string
+
+.abc{
+font-family:quote(arail)
+font-family:unqoute()
+font-family:to-upper-case("arial")
+font-family:to-lower-case("arial")
+font-family:str-length("arial")
+font-family:str-index("arial","a")
+to return index
+font-family:str-insert("arial","add it before arail",10)
+
+give you arail in this "arail"
+
+font-family:str-slice("arial",3	8)
+font-family:unique-id() it give 9 character string
+
+color function
+darken()
+we can give it color and it convert the darken color 
+background-color:darken(red,40)
+lighten()
+it can lighten the color
+background-color:darken(red,40)
+adjust-hue()
+saturate()
+color of lightness lata ha
+desaturate()
+color of darkness lata ha
+mix()
+
+transpatentize()
+
+
+list in scss
+
+In SCSS, a list is a data type that stores a collection of values. Lists are similar to arrays in other programming languages. A list in SCSS is represented as a comma-separated sequence of values, enclosed in parentheses.
+
+$list :10px 10px 3px
+$list :10px,10px,3px
+$list :10px 10px 3px]
+
+list of function
+length()
+nth()
+here we can give index retrun value
+nth() is a built-in function in SCSS that allows you to retrieve a specific element from a list, based on its position. The syntax for using nth() is as follows:
+nth($list, $n)
+set-nth()
+join()
+append()
+index()
+list-separator()
+is-bracketed()
+zip() join the two list by index
+
+
+inbuild function
+
+selector
+
+there are seven selector in scss
+selector-nest()
+selector-append('a','b')
+it can combine we can pass two parameter
+
+selector-replace
+selector-superselector
+simple-selector
+it can spearte the combine selector
+selector-unify('a','.active')
+it try to match the two selector
+
+map function
+is similar to list function but map can be key values
+map-get()
+map-merge()
+map-remove()
+map-keys()
+map-values()
+map-has-key()
+#font-weight:("regular":400,"medium":500,bold:900)
+map-get(map,key	)
+
+introspection
+
+In SCSS (Sass), introspection refers to the ability of a program to examine and manipulate its own internal structures, such as variables, mixins, and functions.
+
+In SCSS, you can use introspection to query information about the current state of your stylesheets, and then use that information to generate dynamic styles or perform other programmatic task
+
+variable-exists()
+here parameter can pass it check the variable exsit are not
+global-variable-exists()
+mixin-exists()
+function-exists()
+type-of()
+inspect() //it print the values a to z
+@content
+  
+ChatGPT
+In SCSS, the @content directive is used to pass a block of content to a mixin or a function, 
+
+@media and @at-root
+
+The @at-root directive is used to force a block of styles to be output at the root level of the CSS file, rather than nested inside another selector or rule. This is useful when you want to define a global style that applies to the entire page, regardless of the context or parent selector.
+or 
+in nesting if we want to the parent selector can not be show then we used at-root directivies used  
+
+In SCSS, the @media directive is used to define a media query that applies a set of styles only when certain conditions are met. Media queries are used to create responsive designs that adapt to different screen sizes, resolutions, or device capabilities. 
+
+
+
+
+control directives of scss
+@if
+@els
+@for(varaible from  1 through/to 2)
+
+@each<var> in <list OR map>{}
+@white
+@each
+
+

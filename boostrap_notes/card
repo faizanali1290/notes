@@ -1,0 +1,47 @@
+if we can create card
+then we can write parent div .card
+
+card with img
+
+
+.card-img-top this class is used to curve imag at the top
+.card-img-bottom
+
+.card-body  text parent div
+.card-text
+.card-title
+.card-subtitle
+.card-link
+
+
+
+if we have card create with li 
+
+.card
+.card-header
+.list-group
+list-group-item
+.card-footer
+
+
+
+
+
+
+
+CARD GROUP
+row-cols-auto
+this class is used to how many col show in one row
+row-cols-3
+
+
+card-height
+
+
+
+.card-group
+
+card 
+
+
+

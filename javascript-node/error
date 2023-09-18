@@ -1,0 +1,16 @@
+synchronous code hendle
+
+coustom error
+finally clause
+try
+catch
+
+throw new nameoftype("message")
+   console.log(error.name)
+    console.log(error.message)
+     console.log(error.stack)
+
+
+error handling is callback()
+sendEmergencyMessageToCeo();
+loadscript()

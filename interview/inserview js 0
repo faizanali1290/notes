@@ -1,0 +1,52 @@
+"Hello, my name is Faizan, and I am a full-stack developer from Danyore. I have completed my FSc with ICS and learned full-stack development at UConnect. I have a strong understanding of front-end technologies like HTML, CSS, Bootstrap, and JavaScript, and have experience using React.js to build responsive and user-friendly web applications. I also have experience with backend technologies, which include Node.js, Express.js, and MongoDB. This knowledge allows me to create efficient and scalable web applications from end to end.
+
+
+
+
+the Document Object Model (DOM) is a programming interface for HTML and XML documents that defines the logical structure of a web page. It is a tree-like structure that represents all the elements, attributes, and text content of a web page. The DOM object provides a way for developers to access and manipulate the content of the web page using JavaScript. Developers can use the DOM API to add, remove, or modify elements, styles, and other attributes of the html document
+
+
+
+The Browser Object Model (BOM) is a collection of JavaScript APIs provided by web browsers that allow developers to interact with the browser window and its components, such as the address bar, history, and screen display.
+
+
+ the window object is a global object that represents the current browser window or tab. It provides a number of properties and methods that allow you to interact with the browser and the content displayed within it.
+window.alert(), window.prompt(), and window.confirm()
+
+
+
+
+ browser API (Application Programming Interface) refers to a collection of built-in interfaces. to allow developers to access various features and functionality of the browser
+
+ browser API (Application Programming Interface) refers to a collection of built-in interfaces that web browsers provide to allow developers to access various features and functionality of the browser. These APIs allow developers to create web applications and interactive websites that can interact with the user, access and modify web page content, manipulate the browser's history, store and retrieve data, and communicate with servers.
+
+Browser APIs can be divided into several categories, including:
+
+DOM (Document Object Model) API: Allows developers to manipulate and modify the content and structure of HTML and XML documents.
+
+
+
+A web application, also known as a web app, is a software program that runs on a web server and is accessed through a web browser or other web-enabled device. Unlike traditional desktop applications, web apps are designed to be run on the i
+
+CSSOM (CSS Object Model) API: Enables developers to programmatically access and manipulate the styles and layout of a web page.
+
+Event API: Provides a way for developers to handle user events such as mouse clicks, keyboard inputs, and touch gestures.
+
+XMLHttpRequest (XHR) API: Allows developers to send and receive data from a web server without refreshing the entire page.
+
+Storage API: Provides a way for web applications to store data locally on the user's device.
+
+
+
+
+
+A webpage is a document that is displayed on the internet, typically in a web browser, that contains information in the form of text, images, videos, and other multimedia elements. It is a single document that is part of a website and can be accessed through a unique URL (Uniform Resource Locator) or web address. Webpages are created using a variety of programming languages, such as HTML, CSS, and JavaScript, and can be designed to serve various purposes, such as providing information, selling products, or facilitating communication.
+
+
+
+Properties are variables associated with an object and are used to store and retrieve values. They can be accessed using the dot notation or the bracket notatio
+
+Methods, on the other hand, are functions associated with an object and are used to perform actions or behaviors. They can be invoked using the dot notatio
+
+
+

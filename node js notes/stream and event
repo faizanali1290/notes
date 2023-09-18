@@ -1,0 +1,40 @@
+event module
+node js has built in modulue called event
+where you can create, fire, and listen your own even
+
+const EVentEmitter=require('events')
+const event=new EventEmitter() 
+
+
+event.on(fristprimeteris your emmit name,()=>{
+
+what should you did if the event is listen
+})
+is used to listen the event
+
+event.emit('symyname',200,ok)
+ inside emmit we can create own event
+ 
+ 
+ 
+ streams module
+ 
+ streams are object that let  you read data from a source or write data to destination in continous fashion . in node js there are  four types of stream
+ 
+ streaming means listening to music or watching video in real time instead of downloading  a file to your computer and watching it later
+ 
+ Readable - stream which is used for read opeartion
+ writeable - stream which is used for write operation
+ Duplex - stream which can be used for both read and write operation
+ transform - A type of duplex steam where the output is computed based on input
+ data - the event is fire when the data is avaiable to read
+ end- the event is fire when there is no more data to read
+error - this event is fire when there is any error reciving or writing data
+finsih- this event is fire when all the data has been flushed to underlying system
+
+
+
+stream pipe method is used to take  a readable stream and connect to writeable steam
+
+
+stream.pipe(whereyoucanset)

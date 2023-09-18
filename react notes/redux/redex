@@ -1,0 +1,21 @@
+state mean pass data
+
+
+in redex we have on centralize  store where we can store whole application data 
+we can sore data into spearte store and the help of this store jo be component ka jab  lagay ga ke is zarorat ha to call the sore  
+we can sore data into spearte store 
+
+
+State management is a technique used in React to manage and update the state of a component or application. In React, the state is an object that stores data and reflects the current condition of the application, such as user input or changes in the data
+
+
+state managment 
+
+state mean  application ka data
+what is redex
+redex is a container where you can store your whole application data	
+
+sara ka sara data ak jaga pa store kiya jata ha
+
+
+

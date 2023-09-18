@@ -1,0 +1,20 @@
+uselocation hook
+the use loacation hook return the location object that reperesent the current url. You can think about it like  a useState that return a new loaction whenever the url changes
+
+using loaction we find the current path
+
+const loaction=useLoaction()
+cosole.log(loaction)
+
+
+useHistroy
+the use histroy is used to access to the histroy instance that you may navigate the histroy 
+
+use histroy are mutte able
+
+const histroy=useHistroy()
+histroy.backward()
+histroy.forwad()
+
+histroy.posh('/home')
+the puch method is used to push at any 

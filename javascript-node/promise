@@ -1,0 +1,48 @@
+promises is used to execute parallel exection/ promise is 
+
+A promise is a promise of code exection the code either executes or fail in both the cases
+promise syntax
+
+
+let varaibleNAme=new promise (function(resolve,reject)){}in there parameter can exected only one
+.then() we can check our promises can be fulfil are not in then we pass two function the frist  function run if the promise complete otherwise next function run()
+promise chaning
+
+
+
+promise have two thing state and result
+let p= new promise (()=>{})
+p.then()
+p.then
+this methid are called promise handler
+
+
+promise handler is used to when we want to fullfuil the promise then we run to next handler run then we used promise handler
+
+promise chaning is used to somthing work a given promise value then we used promise chaning
+
+
+promise and api
+let promise=new promise.all[]
+
+promise.all() mean if we have alot of promise we want to all promise display the result at the same time then we use promise.all()
+if one promise have error all promise can be reject
+
+promise.allsettle() mean if we have alot of promise we want to display no erro promise  result at the same time then we
+
+promise.race() all one have the frist fetch data that can be render if the frist render value is error then it give error
+
+
+promise.any() it is similar to promise.race but not give error
+
+promise.reject()
+promise.resolve()
+
+script.onload()
+
+script.onerror()
+
+asyn function weather(){
+
+await console.log('hfioaerhf')
+}

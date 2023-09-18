@@ -1,0 +1,31 @@
+typrograpghy
+
+it is used to increase font size like heading tag
+dispaly-1
+display-2
+display-3
+display-4
+display-5
+display-6
+
+lead 		this class is used in paragraph this clases effect the paragraph height and fonst size
+
+
+
+list style clasess
+
+list-style:none		list-unstyled
+
+
+<li> tag comes to inline to used this property
+
+<ul > list-inline
+<li> list-inline-item
+
+
+block quotes clasess
+
+blockquote
+blockquote-footer is used to content color gray
+ 
+

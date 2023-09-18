@@ -1,0 +1,151 @@
+console.log()
+console.warn()
+console.ifo()
+console.table()
+console.assert() use to check condition
+console.error()
+console.time()
+console.timeEnd()
+
+DOM
+text node
+element node
+comment node
+
+walking of DOM
+doucment.fristchild()
+document.lastchild()
+childNodes
+elem.childnodes[0]===elem.fristchild()
+elem.childnodes[elem.childnodes.lenght-1]===elem.lastchild()
+elem.haschildnodes()
+
+
+
+.nextsibling
+.previoussibling
+.parentnode
+.parentElement
+
+
+element navigation
+
+
+document.previousElementSibling
+document.nextElementSibling
+document.fristchildElement
+document.lastchildElement
+.children
+
+table base navigation
+
+.row
+.caption
+.bodies
+.body
+tr.cells collection of tr td
+tr.rows[0].rowIndex
+td.cellindx
+
+
+seraching the DOM
+document.getElementBYid()
+document.getElementByClassName()
+document.getElementByTagName()
+document.getElementByName() used to attribute
+document.querySelectorAll()
+document.queryselector()
+
+
+.matches
+.closest
+.contains
+
+
+
+.innerHtml get and set html
+.outerHtml
+.textContent
+document.body.fristchild.data
+hidden=false
+console.dir()
+tagname
+nodename() define for any node (text,commrent, etc)
+
+
+arritube method
+
+elem.getAtribute("name")
+elem.hasAtribute("name")
+elem.setAtribute("name","name")
+elem.removeAttribute
+elem.arrribute
+
+elem.dataset(data* attribute create coustom attribute) create html attribute<b data-game="game">
+
+
+insertion methods
+
+elem.innerHTML=elem.innerHTML + "<h1>hello world<h1>"
+let div=document.createElement("div")
+div.innerHtml="<h1>power of uconnect<h1>"
+elem-appendchild(div)
+
+.nodeappend(e) appened at the end
+.nodepreappend 
+.nodebefore
+.nodeafter()
+.nodeReplaceWith() replace node width the given node
+
+
+
+InsertAdjacentHTML
+InsertAdjacentElement
+InsertAdjacentText
+beforebegin
+beforeend
+aferbegin
+afterend
+
+elem.InsertAdjacentHTML("beforebegin","<li>Home<li>")
+node removal
+
+classlist
+classname
+elem.classlist.remove/add("classname")
+toogle is used to set and remove
+
+
+
+
+
+
+setTimeout when we want to execte js sometime than run 
+setinterval	if we have want to again again run javascript run
+
+setTImeout(function(){ 5000 clearTImeout}300)
+
+
+
+
+
+
+
+
+
+
+
+
+change the html content
+.textcontet
+.innertext
+.innerHTML
+.outerHTML
+.textContent
+
+
+
+
+
+
+

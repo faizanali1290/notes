@@ -1,0 +1,76 @@
+/* navgation bar */
+/* website logo */
+
+* {
+
+    margin: 0px;
+    overflow-x: hidden;
+
+
+
+}
+
+:root {
+    --black: black;
+    --white: white;
+}
+
+.logo>h2 {
+    display: inline;
+    margin-left: 14px;
+    color: blue;
+
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    background-color: var(--black);
+    color: var(--white);
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+
+}
+
+.menu a {
+
+    margin: 0px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+
+.menu {
+
+    margin: 0px 90px;
+
+}
+
+/* home page background image */
+.background {
+    background-image: url(../other/pic/bg2.jpg);
+    width: 100vw;
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.menu a:hover {
+    background-color: blue;
+    color: red;
+    transform: scale(3);
+}
+
+footer {
+
+    width: 98vw;
+    height: 20vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}

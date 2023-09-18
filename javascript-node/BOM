@@ -1,0 +1,95 @@
+window.open() - open a new window
+window.close() - close the current window
+window.moveTo() - move the current window
+window.resizeTo() - resize the current window
+
+
+
+
+Window Screen
+The window.screen object can be written without the window prefix.
+
+Properties:
+
+screen.width
+screen.height
+screen.availWidth
+screen.availHeight
+screen.colorDepth
+
+
+
+
+
+Window Location
+The window.location object can be written without the window prefix.
+
+Some examples:
+
+window.location.href returns the href (URL) of the current page
+window.location.hostname returns the domain name of the web host
+window.location.pathname returns the path and filename of the current page
+window.location.protocol returns the web protocol used (http: or https:)
+window.location.assign() loads a new document
+
+
+
+
+
+
+Window History
+The window.history object can be written without the window prefix.
+history.back() - same as clicking back in the browser
+history.forward() - same as clicking forward in the browser
+
+The history.back() method loads the previous URL in the history list.
+
+
+
+he window.navigator object contains information about the visitor's browser.
+
+Window Navigator
+The window.navigator object can be written without the window prefix.
+
+Some examples:
+
+navigator.cookieEnabled
+navigator.appCodeName
+navigator.platform
+Browser Cookies
+The cookieEnabled property returns true if cookies are enabled, otherwise false:
+The appName property returns the application name of the b
+The appCodeName property returns the application code name of the browser:
+The appVersion property returns version information about the browser:
+he userAgent property returns the user-agent header sent by the browser to the server:
+The platform property returns the browser platform (operating system):
+The language property returns the browser's language:
+The language property returns the browser's language:
+The javaEnabled() method returns true if Java is enabled:
+
+
+
+
+
+
+
+
+
+
+
+
+Create a Cookie with JavaScript
+JavaScript can create, read, and delete cookies with the document.cookie property.
+
+With JavaScript, a cookie can be created like this:
+
+document.cookie = "username=John Doe";
+
+
+You can also add an expiry date (in UTC time). By default, the cookie is deleted when the browser is closed:
+
+document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC";
+document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+
+
+

@@ -1,0 +1,10 @@
+symbol
+is a uniquely identfy
+
+
+symobol can be used in object like [key]:value
+
+
+when we convert object to json and symbol data type can be skip
+
+json.stringify() to convert any to  

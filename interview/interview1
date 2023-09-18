@@ -1,0 +1,13 @@
+the js engine
+
+use to compiler v8 engine
+the engine consist of two component
+memory heap
+this is where the memory location allocation happend
+call stuck
+this is where your stack frames are as your code executes
+
+call stuck
+asynchromps
+event loop
+why need asynchroronos process

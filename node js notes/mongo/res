@@ -1,0 +1,13 @@
+crud operation restful api
+
+the server have need to manual port number it does't know 3000 etc it onlu know this
+  const port=process.env.PORT || 3000
+  
+  module.exports=studenl
+  const stud=require('./abs/xyz')
+  
+  
+  express.json is a method inbuilt in express to recognize the incoming request object as a JSON
+  object  this method is called middleware
+  
+  app.use(express.json())

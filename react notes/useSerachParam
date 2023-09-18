@@ -1,0 +1,14 @@
+serach param hook is used in qurr
+
+serach param is used to access the current url and mute the querry string
+
+import {useSerachParam} from  'react-dom'
+
+const [serachparams,setSerarchParam]=useSerachParam()
+
+
+serachparams.get('age')
+setSerarchParam({text:e.taget.value})
+
+the frist array element is used to access the querry string and the seond parameter  is used to set the querry string
+pagination is an exmple of setSerachparam  

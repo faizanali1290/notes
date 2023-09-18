@@ -1,0 +1,110 @@
+service wroker
+is basically client-side proxy which is a part of browser controlled by js
+when we request to fetch data the service work check the data is present in cache if the data is present it show the cache data else go to the server
+
+
+A service worker is a JavaScript file that runs in the background of a web browser, separate from the web page itself. It is a type of web worker, a script that operates independently of the main web page and can perform tasks asynchronously.
+this is called the cache frist strategy
+
+A web worker is a JavaScript script that runs in the background of a web page, separate from the main execution thread. I
+
+we used service work to need https server
+
+
+the ExtendableEvent.waitUntil() method extends the lifetime of the event.
+
+If you don't call it inside a method, the service worker could be stopped at any time (see the specification).
+
+So, the waitUntil method is used to tell the browser not to terminate the service worker until the promise passed to waitUntil is either resolved or rejected.
+
+
+beforeinstallpropmt event
+
+About your specific questions:
+
+In the case of the install and the activate events, it delays the state switch of the service worker to installed and activated (see the specification of the waitUntil method, in particular the last part of the paragraph).
+I think the rest of my answer already answered as to why it is needed.
+
+respondWith
+The respondWith method is a method available in the FetchEvent interface within a service worker. It is used to provide a custom response to a fetch request.
+
+manifest.json
+is basically a .json which tells the browser about the website behavior
+it may containt
+app Icon
+App name 
+start url
+display
+backgorund color
+
+
+to add service worker 
+
+
+register the service wroker
+
+
+A service worker is a JavaScript file that runs in the background of a web browser independently of the web page. It acts as a programmable proxy between the web page and the network.
+
+
+
+push api
+
+
+
+
+
+
+if('serviceWorker' in navigator){
+
+navigator.serviceWorker.register('/sw.js')
+.then((reg)=>{
+console.log('regester')
+})
+}
+els{
+console.log('not supported')
+
+
+
+
+self.addEventListener('install', event => {
+  event.waitUntil(
+    caches.open('static-cache-v1')
+      .then(cache => {
+        // Cache static assets
+        return cache.addAll([
+          '/',
+          '/index.html',
+          '/styles.css',
+          '/script.js',
+          '/images/logo.png'
+          // Add more files to cache as needed
+        ]);
+      })
+  );
+});
+
+
+here the self refer window , global object
+
+window.addEventLisner('appInstall',()=>{
+})
+
+sync
+push
+activ
+
+a service worker is  a client side programable proxy	between your web app and the outside
+
+work box
+gulp
+
+A progressive web app (PWA) is a type of web application that combines the best features of both websites and mobile applications. PWAs are designed to provide an app-like experience to users while being accessible through a web browser. They are built using standard web technologies such as HTML, CSS, and JavaScript.
+
+can be made using vanilla js,html &css
+accessed vaia a web adress and not the app store
+cn be install on the mobile home screen 
+runs in the browser but with access to device feature
+can be used offline
+can use nweb pus notificaton

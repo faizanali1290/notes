@@ -1,0 +1,40 @@
+const model = require("../db/scema");
+// http://localhost:3000/pagination?page=&&limit=7
+
+const pagination = async (req, resp) => {
+  let page = Number.parseInt(req.query.page) || 1;
+  const pageLimit = Number.parseInt(req.query.limit) || 3;
+  let skip = (page - 1) * pageLimit;
+
+  if (isNaN(page) || page < 0 || typeof page === "string") {
+    console.log("faizan");
+    model
+      .find()
+      .skip(0)
+      .limit(3)
+      .exec(function (err, items) {
+        if (err) {
+          return resp.json("j");
+          // handle error
+        } else {
+          // send paginated items to client
+          return resp.json(items);
+        }
+      });
+  } else {
+    model
+      .find()
+      .skip(skip)
+      .limit(pageLimit)
+      .exec(function (err, items) {
+        if (err) {
+          return resp.json("j");
+          // handle error
+        } else {
+          // send paginated items to client
+          return resp.json(items);
+        }
+      });
+  }
+};
+module.exports = pagination;

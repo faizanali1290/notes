@@ -1,0 +1,13 @@
+what is cluster 
+we can run our appliaction in many child process ma run karta ha
+why we used cluster
+it used to utilization of cpu
+
+main node js appliaction can be divided into cpu core can be equal
+
+
+what is reslencey
+jab be hamary appliaction ka under error ata ha tu
+and your server can crush
+
+your server  are now the server can retart and  kuch asa kary jas say ap ka kam nhi rokay

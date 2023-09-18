@@ -1,0 +1,31 @@
+when we open any webpage us webpage ka body ha vo kist type ka content dekharhe ha  ya bajrhe ha ya  bata rhe ha content-type header
+
+if we upload image but i upload js file the browser can check the content  of the body image or js file that treat as 
+
+
+by default mimesnipping enable ha to  the browser can identify content
+
+the header is image and the content is html 
+
+in header the content type is image  and the browser can read the content of response  then can identify what is content if the content is miss match then that can treat the content that can it identify
+
+
+response.setHeader('X-Content-Type-Options', 'nosniff');
+when this header see the brower can not decided it can never see content it can see header according to the header the parser can run   
+
+
+
+
+x-frame options:deny/same-origin/
+
+
+
+strict trapsport security
+this can enforce you to navigate your website https
+
+sll strip
+
+content security policy cssp
+it allow you to precisely control premitted content sources and many other parameters
+requieres careful tuning and precise deinition of the policy
+base-uri,default-src,script-src,style-src,img-scr,form-action

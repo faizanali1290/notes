@@ -1,0 +1,24 @@
+using modules we can use one file function variable class can be used in second file
+there are two type of functin in module 
+export  import
+
+import {give varible name that you can use}from "./path name"  
+
+if we want to import the variable name can be change then we used alias
+
+import {name as n} from './path'
+
+
+if we want to all varaible funcion used in other then we used asterik * used as name from './path'
+tell in html using script type='module'
+
+
+export deafult function (){} have no name  it can be import import {default as giverandomName} from './path'
+
+or import randomname from './path'
+
+
+
+unicode
+
+\u to used unicode

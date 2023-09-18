@@ -1,0 +1,24 @@
+req.params: An object containing the parameters of the current route.
+
+req.query: An object containing the parsed query string parameters.
+
+req.body: An object containing the parsed request body. This property is only available when using body-parsing middleware such as body-parser.
+
+req.cookies: An object containing the cookies sent by the client in the request.
+
+req.get(): A method that returns the value of the specified request header.
+
+req.ip: A string containing the IP address of the client that made the request.
+
+req.path: A string containing the path of the current request URL.
+
+req.protocol: A string containing the protocol (http or https) of the request.
+
+req.xhr: A boolean value that is true if the request was made using XMLHttpRequest.
+
+req.headers: An object containing the headers sent by the client in the request.
+
+req.route: An object representing the current route that was matched.
+
+req.originalUrl: A string containing the original request URL.
+

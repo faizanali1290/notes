@@ -1,0 +1,16 @@
+useNavigate hook
+
+hook is used to when user interact the window 
+it used to nivage one page to other page
+redirect to other page   
+
+import {useNaviage} from 'useNaviagte'
+const navigate=useNaviage()
+()=>{
+
+navigate('contact')
+}
+
+here is used to back
+
+navigate(-1)

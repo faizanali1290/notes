@@ -1,0 +1,23 @@
+
+
+
+getter and setter are used to set and get values
+
+get can be used in class widthout given function name we can access the function 
+
+objectName instanceof className check the object can be belong this the given class
+
+
+
+immediate invoke function expression  immfe
+IMMFE is used to acyn await widthout using additional function
+
+
+closures
+a closures is a combination of function together (enclosed) with references to its surrounding state  (the lexical envirment).
+in other word closure give you access to an other function scope from an inner function
+
+
+inside function this refer to global object
+insde evetn this refer to an element  that recived event 
+closures is a function along with a lexical scope

@@ -1,0 +1,20 @@
+pagination
+
+
+<ul class='pagination pagination-lg'>
+<li clas='pagination-item'><a href='' class='page-link'></li>
+</ul>
+
+pagination-lg this class is used toincrese the size of pagination nbutton
+
+pagination active and disabled
+
+breadcrumb
+Indicate the current page's location within a navigational hierarchy that automatically adds separators via CSS.
+
+<ol class='breadcrumb'>
+<li class='breadcrumb-item'> <a href=''></li>
+<li class='breadcrumb-item ative'> <a href=''></li>
+</ol>
+
+</ol>

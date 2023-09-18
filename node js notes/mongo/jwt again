@@ -1,0 +1,17 @@
+json web token
+
+
+jwt the frist part represent header header contain the alogrithum where algorithum is used to encode and what is the type of token
+
+and the secod part is a playload mean body data it our project for body we can give unique id
+
+and the last is securete key 
+
+it has state less server does not know about this token
+
+it jwt store user previous entaction with the server
+
+
+to verify token
+
+jwt.verfiy(userToken,secreatekey)

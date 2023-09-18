@@ -1,0 +1,22 @@
+one to one relation ship
+
+
+One way to model a one-to-one relationship in MongoDB is to use embedded documents. In this approach, you can store all the data for both entities in a single document. For example, let's say you have two entities, a user and a profile. You can embed the profile document inside the user document, like this:
+
+ one to many
+ many to many
+ 
+  
+ 
+ 
+ db.user.aggregate([
+  {
+    $lookup: {
+      from: "posts",
+      localField: "_id",
+      foreignField: "user_id",
+      as: "posts"
+    }
+  }
+])
+

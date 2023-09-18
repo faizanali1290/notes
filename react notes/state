@@ -1,0 +1,19 @@
+we can pass props in its  component
+
+state belong to another component
+use state is a function that return array with two item
+the frist value is call state object and second is updated function
+the frist value is called intial value
+hook should always be used at the top level  of the react functions
+
+import react{use state} from 'react'
+const [text,setText]=useState('Enter  text here')
+event.traget.value
+react can watch automatically 
+
+
+
+
+
+
+

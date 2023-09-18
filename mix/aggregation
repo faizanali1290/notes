@@ -1,0 +1,4 @@
+aggreagation
+aggregation opoeration process data records and return computed results Aggregation operations groupp value
+from multiple documents together adn can perform a variety of operation on the grouped data to return a single result
+there are three way to provide aggregation pipeline ,map-reduce-function, single purpose aggreagation methds

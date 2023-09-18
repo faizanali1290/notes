@@ -1,0 +1,2 @@
+configure callbackURLs
+a callback URL is a url in your appliactin where Auth0 redirect

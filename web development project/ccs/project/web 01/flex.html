@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .con {
+            background-color: red;
+            border:2px solid yellow;
+            display: flex;
+            flex-wrap: wrap;
+        flex-wrap: wrap;
+       
+            width: 100vw;
+            height: 80vh;
+            flex-direction: row;
+            justify-content: flex-start;
+            justify-content:stretch;
+        
+        }
+
+        .coloumn {
+       background-color: greenyellow;
+            border:2px solid black;
+            margin-left:8px;
+       width: 100px;
+       height: 100px;
+            
+            /* justify-content:space-around */
+        }
+        #p1{
+order: 2;
+        }
+        #p2{
+          order:6;  
+        }
+        #p3{
+        flex-grow: 3;
+        flex-basis: 66px;
+        }
+ 
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="con">
+
+        <div class="coloumn">coloumn 1</div>
+        <div class="coloumn">coloumn 2</div>
+        <div class="coloumn">coloumn 3</div>
+        <div class="coloumn">coloumn 4</div>
+        <div class="coloumn">coloumn 5</div>
+        <div id='p1'class="coloumn ">coloumn 6p1 </div>
+        <div id='p2'class="coloumn  ">coloumn p2 7</div>
+        <div id='p3'class="coloumn ">coloumn 8p3 </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+The rest operator is represented by three dots (...) and allows you to collect multiple values into an array. It can be used in function parameters to gather all remaining arguments into an array.
+
+The spread operator is also represented by three dots (...) and allows you to expand an array or object into multiple values. It can be used to pass multiple arguments to a function or to combine multiple arrays or objects.
+
+In JavaScript, an iterator is an object that provides a way to access the elements of a collection (such as an array) one by one. 
+
+A generator is a process that can be paused and resumed and can yield multiple values. A generator in JavaScript consists of a generator function, which returns an iterable Generator object
+
+Set is a data structure that allows you to store unique values of any type. One of the advantages of using a Set is that it automatically removes duplicates,
+
+
+Map is a data structure that allows you to store key-value pairs. Each key in a Map can be of any type, and the values can also be of any type, including objects and functions.
+
+map can sore any type of data and object key only have have have string and symbol
+
+
+
+an array is a data structure that allows you to store a collection of values, such as numbers, strings, objects, or other arrays. 
+
+
+
+
+In JavaScript, an object is a data structure that allows you to store a collection of key-value pairs, where the keys are strings or symbols and the values can be of any data type, including other objects and functions.
+
+
+if statement is a conditional statement that allows you to execute a block of code if a certain condition is true.
+
+
+
+In programming, a loop is a control structure that allows you to execute a block of code repeatedly
+
+
+Date.now() is a static method in JavaScript's built-in Date object that returns the current date and time as the number of milliseconds since January 1, 1970, 00:00:00 UTC

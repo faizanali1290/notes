@@ -1,0 +1,30 @@
+advantages of react
+component base approach
+a component is one of the core building blocks of react in other word  every application you will develop in react will be made up of pieces called component
+uses a declarative Approach
+DOM updates are handled gracelt
+resuable code
+provide speed
+
+why used react
+
+
+codesandbox
+
+
+package.json is used to store the metadata associated with the project as well as to store the list of depenedcy packages
+
+
+floder structure
+
+
+node modules
+
+node module floder is the repository of module/librabry which you are using inside your project when we npm install that time the module or librabry or install inside node module floder  and more entry added in package.json file
+
+
+manifest.json  provide the information about the app in a plane json format
+
+
+
+ReactDom.render('kiya dekhana ha','kha dekhana ha','run call back funcion' )

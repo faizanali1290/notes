@@ -1,0 +1,10 @@
+git status
+are used to check the current project can posh on github
+
+
+git init
+git add . if we have want to all floder posh on github then we used 
+
+git commit -m 'my frist commit reactwebsite '
+npx sb init
+git push

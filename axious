@@ -1,0 +1,8 @@
+what is AXIOUS
+AXIOUS is lightweight package and used to make http request in any js library like react angular Vue . in Axious makes it easy to send asynchronous HTTP resquest to REST endpoint and perfrom crud operation if you use fetch method in js AXIOUS is the easy to use version of fetch
+
+
+prons of AXIOUS
+
+in AXIOUS the data can be already give in json format
+using AXIOUS we can call all method  

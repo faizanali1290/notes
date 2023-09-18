@@ -1,0 +1,11 @@
+find scroll up or down
+we used wheel event
+
+vertical scroll deltayy
+horizental scrll deltayx
+
+if(e.deltaY<0) mean scroll up 
+if(e.deltay>0) mean scrll down
+
+
+window.pageYoffset  it tell how much scroll the top of the window

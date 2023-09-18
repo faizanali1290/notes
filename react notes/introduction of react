@@ -1,0 +1,61 @@
+single web application asi web application hoti ha go ak bar load hoti ha baki ka sara kam js sa hoti ha wihout refresh page
+
+
+react extension
+chrom extension
+react developer
+
+thunder Client
+	this is used to test api can test on vs code
+ES7 react/Redux/Graph
+Auto rename tag
+pretierr -code formatter
+npm cache clean –force this commad is used to clean global dependencies
+npx is used to if we want to used library for one time then used npx
+packgae can be used without downloding it is used when we want to the package can be used for one time 
+	
+
+floder structure
+
+public 
+
+
+src
+app.js
+is component
+index.js
+enry point
+
+app.js ka uder jo lekhtay ha vo index.js ka uder ata ha
+react ka component ko src ka under dalang gay
+package.json 
+information about package that are install in node module
+
+
+prop
+
+we can full any detail exmple form
+component ke pop
+component ka under jo detail dalta ha vo prop ha
+
+state
+
+if we want to static html css and javascript
+then we used npm run build
+
+function base component 
+
+class base component
+
+heading is state
+
+mean detail of compnent 
+
+component prop
+mean 
+
+
+
+
+conponent ke state
+

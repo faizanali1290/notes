@@ -1,0 +1,23 @@
+postman is an iteractive and automatic tool for verrifying the apis of your project.postman is a google chrome app for interacting with HTTP apis
+
+
+
+what is resp api
+
+REST API stand for Representation state transfer appliction programing interface
+
+A restful api is an architectural style for an appliaction program interface API that used HTTP requests to access and use data. REST is not a programing
+
+API is a software that allows two application to communicate with each other the internet and through varioys devives. 
+
+
+put 
+if we have all data can be update
+
+patch 
+
+if we have specific data can be update
+
+http//:faizan.com/api/createuser
+
+POST/api/createusers

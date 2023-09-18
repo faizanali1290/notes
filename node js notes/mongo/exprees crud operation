@@ -1,0 +1,6 @@
+create document in mong
+
+const documentname=new name of data base({})
+
+documentname.save()
+.save() return promise

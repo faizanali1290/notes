@@ -1,0 +1,47 @@
+string method
+
+String length
+String slice()
+String substring()
+String substr()
+String replace()
+String replaceAll()
+String toUpperCase()
+String toLowerCase()
+String concat()
+String trim() remove white space it return new string
+String trimStart()
+String trimEnd()
+String padStart() add something start return new string
+String padEnd()
+String charAt() give index retrun position of value
+String charCodeAt()
+String split()  string can be converted to an array
+
+serach string
+
+
+String indexOf()
+String lastIndexOf()
+String search()
+String match()
+String matchAll()
+String includes()
+String startsWith()
+String endsWith()
+
+
+
+string operation
+
+ .at()		give index find character
+ 
+ .codePointAt()
+ .codePointfrom()
+ .charcodeAt()
+ .charAT()
+ .localcompare()
+ .repeat()
+ .tosrting() string object to convert string
+ .valueof()
+

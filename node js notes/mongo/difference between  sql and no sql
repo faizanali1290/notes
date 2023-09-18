@@ -1,0 +1,32 @@
+mongo DB
+
+sql and no sql
+
+sql
+
+work on table-based database
+if we have some one add and delete we can  require some language
+it is used sql to query database
+table
+
+no sql
+work on document-base database
+it is used BSON to query data base
+
+BSON is ued to store of data
+collection like table
+
+in no sql collection called document  like row
+filed	 like column
+
+
+Data Structure: SQL databases have a fixed schema, which means that the structure of the data must be defined before the data is inserted. NoSQL databases, on the other hand, have a dynamic schema and can handle unstructured data.
+
+Query Language: SQL databases use SQL as their query language, while NoSQL databases use a variety of query languages, depending on the type of database.
+
+Scalability: SQL databases are vertically scalable, meaning that they can handle more load by adding more resources (such as RAM or CPU) to a single server. NoSQL databases are horizontally scalable, meaning that they can handle more load by adding more servers to a cluster.
+
+
+
+monodb123456789
+

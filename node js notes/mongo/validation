@@ -1,0 +1,77 @@
+validation in mongo db
+
+
+
+built in validation in mongodb
+
+
+schema validation
+
+
+schema=({
+name:{
+type:String,
+require:true,
+unique:true,
+lowercase:true,
+uppercase:true,
+match:true this mean that it the given value can match given regular expression
+trim:true
+minlenght:0;or minlength:[0,'here message you can throw']
+maxlength:4
+
+
+}
+
+})
+
+here unique mean every name must have a unique 
+
+
+number validator
+
+min
+max
+enum
+ctype:{
+type:string,
+enum:['faizan','ali']
+
+}
+if we have give array and the value much me match the array then we used enum it used both number and string
+
+
+
+coustom validation
+
+
+
+
+age:{
+validate(here we can get value of age){
+if(here<0){
+throw new Error('aweioflhweiofh)}
+
+
+
+
+npm package validation
+
+npm validator
+
+
+
+
+const email = "testemailgmailcom@gmail.com";
+
+const regex = /^[a-zA-Z0-9_]+@gmail\.com$/;
+
+if (regex.test(email)) {
+  console.log("Valid Gmail address");
+} else {
+  console.log("Invalid Gmail address");
+}
+
+}
+}
+

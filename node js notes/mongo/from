@@ -1,0 +1,28 @@
+form class
+form-control inportant class
+form-label
+
+input size
+
+form-control-lg
+form-control
+form-control-sm
+
+
+
+for disbaled class
+
+.disabled 
+.readonly
+
+form-control-paintext
+It is used when you want to display a form control without allowing user input or editing
+
+
+
+form file input class
+form-control-color
+.form-control-lg/sm
+.form-check-input
+The "sr-only" class sets the element's text to be visible only to screen readers and not to be displayed on the screen
+

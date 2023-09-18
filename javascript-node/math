@@ -1,0 +1,18 @@
+
+
+Number method
+
+
+math.ceil (4.5)  is used to give upper nearest value it only work float
+math.floor(3.4) is used to give down nearest value
+math.round()
+math.trunc() it give only integer value
+math.max()
+math.min()
+math.sqrt()
+math.cbrt() mean cubic root
+math.pow(base,power)
+math.random()
+math.floor(math.random()*10)+1
+math.abs() absolute value 
+math.pi

@@ -1,0 +1,33 @@
+Authentication Strategies
+Authentication strategies are methods or techniques used to verify the identity of a user or system in order to grant access to a protected resource. There are several different authentication strategies that can be used, including:
+
+Basic Authentication
+Session Based Authentication
+Token Based Authentication
+JWT Authentication
+OAuth
+SSO        
+
+Basic Authentication
+
+Basic authentication is the process of proving your identity by entering a username and password to access a resource, but it lacks strong security and encryption.
+
+Basic Authentication include login
+how it work 
+the client tries to access some protected layer
+sever checks if the request has authorization header with valid usernmae and password
+then return status(200) else (401)
+
+
+
+
+sesstion based authentication
+user is assigned some unique identifer and this identifer is stored in server in memory .client sends  this sesstion id in all the request and server uses it to identify the user
+
+
+
+SSO stands for Single Sign-On. It is an authentication method that allows users to log in once and gain access to multiple applications or systems without needing to provide their credentials again for each application.
+
+
+
+OAuth (Open Authorization) is an authentication and authorization framework that allows users to grant third-party applications limited access to their resources on a web service without sharing their credentials directly.

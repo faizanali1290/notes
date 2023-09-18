@@ -1,0 +1,50 @@
+mouse Event
+click,ondbclick,oncontextmenu(right click),mouseover,mouseout,mousedown,mouseup,mousemove
+keyboard event
+keydown , keyup, keypress
+addeventLisner
+removeEvenLisner
+parameter.target
+parameter.type
+parameter.currentTraget  which event have handle)
+parameter.clientX/clientY coordiante of cursosr
+
+window.location
+
+window event
+.close()
+var-name.open()
+pageload event
+DOMContentLoaded
+load
+
+scroll event
+resize
+window.wheel (detect scroll down/up)
+window.scroll
+parameter.deltay
+fixed scroll(500px)
+if(window.pageyoffset>50px){}
+
+
+form
+
+foucs
+blur
+change (this.value)
+input
+
+event delegation
+a way you can an event lisner once for multiple element with support for adding extra children
+event Bubbling & event capture
+
+addEventLisner(event,function,bubbling=false/capturing=true)
+stop-proppogation
+param eter.stopPropagation
+
+
+
+local storage and session storage
+localstorage.setItem(name,value)
+localstorage.getItem(name)
+localstorage.removeItem('name')

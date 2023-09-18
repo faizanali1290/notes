@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+
+            background-image: url('./video-games-wide.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+
+        table {
+            /* border: 3px solid black; */
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 3px solid red;
+            height: 60px;
+            width: 55px;
+            border-collapse: separate;
+            border-top: none;
+            text-align: center;
+
+        }
+
+        table :last-child :last-child td {
+            border-bottom: none;
+        }
+
+        .corner-right {
+            border: 3px solid red;
+            border-right: none;
+            /* border: 5px solid yellow; */
+        }
+
+        .cr {
+            border-top: none;
+        }
+
+        .corner-left {
+            border: 3px solid red;
+            border-left: none;
+            /* border: 5px solid yellow; */
+        }
+
+        .cl {
+            border-top: none;
+        }
+
+        button {
+
+            position: absolute;
+            top: 75%;
+            /* border: 4px solid red; */
+            background-color: yellow;
+            padding: 10px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="winnerInfo">
+
+
+        <table>
+
+
+            <tr>
+                <td class="corner-left cl" id="1"></td>
+
+
+                <td id="2"></td>
+                <td class="corner-right cr" id="3"></td>
+
+
+            </tr>
+            <tr>
+                <td class="corner-left" id="4"></td>
+
+
+                <td id="5"></td>
+                <td class="corner-right" id="6"></td>
+
+
+            </tr>
+            <tr>
+                <td class="corner-left" id="7"></td>
+
+
+                <td id="8"></td>
+                <td id="9" class="corner-right"></td>
+
+
+            </tr>
+        </table>
+        <h1 id="playerturn"></h1>
+    </div>
+    <button id="btn"><img src="" alt="">new game</button>
+
+    <script>
+        let z = document.querySelectorAll('td')
+
+
+        function condition() {
+
+
+            z.forEach(function (element) {
+
+
+
+
+
+
+                if (document.querySelectorAll('td')[0].innerText == 'X' && document.querySelectorAll('td')[1].innerText == 'X' && document.querySelectorAll('td')[2].innerText == 'X') {
+
+                    document.getElementById('winnerInfo').innerHTML = "<h1> X winner </h1>"
+                }
+                else if (document.querySelectorAll('td')[3].innerText == 'X' && document.querySelectorAll('td')[4].innerText == 'X' && document.querySelectorAll('td')[5].innerText == 'X') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> X winner </h1>"
+
+
+                }
+                else if (document.querySelectorAll('td')[6].innerText == 'X' && document.querySelectorAll('td')[7].innerText == 'X' && document.querySelectorAll('td')[8].innerText == 'X') {
+
+                    document.getElementById('winnerInfo').innerHTML = "<h1> X winner </h1>"
+                }
+
+
+
+                // vertical condtion
+
+
+                else if (document.querySelectorAll('td')[0].innerText == 'X' && document.querySelectorAll('td')[3].innerText == 'X' && document.querySelectorAll('td')[6].innerText == 'X') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> X winner </h1>"
+                }
+                else if (document.querySelectorAll('td')[1].innerText == 'X' && document.querySelectorAll('td')[4].innerText == 'X' && document.querySelectorAll('td')[7].innerText == 'X') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> X winner </h1>"
+                }
+                else if (document.querySelectorAll('td')[2].innerText == 'X' && document.querySelectorAll('td')[5].innerText == 'X' && document.querySelectorAll('td')[8].innerText == 'X') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> X winner </h1>"
+                }
+
+
+                // cross condition
+
+
+                else if (document.querySelectorAll('td')[0].innerText == 'X' && document.querySelectorAll('td')[4].innerText == 'X' && document.querySelectorAll('td')[8].innerText == 'X') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> X winner </h1>"
+                }
+                else if (document.querySelectorAll('td')[2].innerText == 'X' && document.querySelectorAll('td')[4].innerText == 'X' && document.querySelectorAll('td')[6].innerText == 'X') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> X winner </h1>"
+                }
+
+
+
+
+
+
+                
+
+
+                if (document.querySelectorAll('td')[0].innerText == 'O' && document.querySelectorAll('td')[1].innerText == 'O' && document.querySelectorAll('td')[2].innerText == 'O') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> O winner </h1>"
+                }
+                else if (document.querySelectorAll('td')[3].innerText == 'O' && document.querySelectorAll('td')[4].innerText == 'O' && document.querySelectorAll('td')[5].innerText == 'O') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> O winner </h1>"
+                }
+                else if (document.querySelectorAll('td')[6].innerText == 'O' && document.querySelectorAll('td')[7].innerText == 'O' && document.querySelectorAll('td')[8].innerText == 'O') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> O winner </h1>"
+                }
+
+
+
+                // vertical condtion
+
+
+                else if (document.querySelectorAll('td')[0].innerText == 'O' && document.querySelectorAll('td')[3].innerText == 'O' && document.querySelectorAll('td')[6].innerText == 'O') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> O winner </h1>"
+                }
+                else if (document.querySelectorAll('td')[1].innerText == 'O' && document.querySelectorAll('td')[4].innerText == 'O' && document.querySelectorAll('td')[7].innerText == 'O') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> O winner </h1>"
+                }
+                else if (document.querySelectorAll('td')[2].innerText == 'O' && document.querySelectorAll('td')[5].innerText == 'O' && document.querySelectorAll('td')[8].innerText == 'O') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> O winner </h1>"
+                }
+
+
+                // cross condition
+
+
+                else if (document.querySelectorAll('td')[0].innerText == 'O' && document.querySelectorAll('td')[4].innerText == 'O' && document.querySelectorAll('td')[8].innerText == 'O') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> O winner </h1>"
+                }
+                else if (document.querySelectorAll('td')[2].innerText == 'O' && document.querySelectorAll('td')[4].innerText == 'O' && document.querySelectorAll('td')[6].innerText == 'O') {
+                    document.getElementById('winnerInfo').innerHTML = "<h1> O winner </h1>"
+                }
+
+
+
+            })
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        let player = document.getElementById('playerturn')
+
+
+
+
+
+
+        player.innerText = 'turn player X'
+        var turn = 0;
+
+        document.getElementById('1').addEventListener('click', () => {
+
+            if (turn == 0) {
+                // alert('turn x')
+                document.getElementById("1").innerText = "X";
+
+
+                turn = 1;
+                document.getElementById("1").disabled = false;
+
+                player.innerText = 'turn player O'
+            }
+
+            else {
+                document.getElementById("1").innerText = 'O'
+
+                turn = 0;
+
+                document.getElementById("1").disabled = false;
+            }
+            condition()
+        }
+
+
+        )
+
+        document.getElementById('2').addEventListener('click', () => {
+
+            if (turn == 0) {
+
+
+                document.getElementById("2").innerText = "X";
+
+                document.getElementById("2").disabled = true;
+                turn = 1;
+
+
+            }
+            else {
+
+                document.getElementById("2").innerText = 'O'
+                document.getElementById("2").disabled = true;
+                turn = 0;
+                player.innerText = 'turn player X'
+            }
+
+            condition()
+        }
+
+
+        )
+
+        document.getElementById('3').addEventListener('click', () => {
+
+            if (turn == 0) {
+                player.innerText = 'turn player O'
+
+
+                document.getElementById("3").innerText = "X";
+
+                document.getElementById("3").disabled = true;
+                turn = 1;
+
+
+            }
+            else {
+
+                player.innerText = 'turn player X'
+
+                document.getElementById("3").innerText = 'O'
+                document.getElementById("3").disabled = true;
+                turn = 0;
+            }
+
+            condition()
+        }
+
+
+        )
+
+        document.getElementById('4').addEventListener('click', () => {
+
+            if (turn == 0) {
+                player.innerText = 'turn player O'
+
+
+                document.getElementById("4").innerText = "X";
+
+                document.getElementById("4").disabled = true;
+                turn = 1;
+
+
+            }
+            else {
+
+                player.innerText = 'turn player X'
+
+                document.getElementById("4").innerText = 'O'
+                document.getElementById("4").disabled = true;
+                turn = 0;
+            }
+            condition()
+
+        }
+
+
+        )
+        document.getElementById('5').addEventListener('click', () => {
+
+            if (turn == 0) {
+                player.innerText = 'turn player O'
+
+                document.getElementById("5").innerText = "X";
+
+                document.getElementById("5").disabled = true;
+                turn = 1;
+
+
+            }
+            else {
+                player.innerText = 'turn player X'
+
+
+
+                document.getElementById("5").innerText = 'O'
+                document.getElementById("5").disabled = true;
+                turn = 0;
+            }
+            condition()
+
+        }
+
+
+        )
+
+        document.getElementById('6').addEventListener('click', () => {
+
+            if (turn == 0) {
+
+                player.innerText = 'turn player O'
+
+                document.getElementById("6").innerText = "X";
+
+                document.getElementById("6").disabled = true;
+                turn = 1;
+
+
+            }
+            else {
+
+                player.innerText = 'turn player X'
+
+
+                document.getElementById("6").innerText = 'O'
+                document.getElementById("6").disabled = true;
+                turn = 0;
+            }
+
+            condition()
+        }
+
+
+        )
+        document.getElementById('7').addEventListener('click', () => {
+
+            if (turn == 0) {
+                player.innerText = 'turn player O'
+
+
+                document.getElementById("7").innerText = "X";
+
+                document.getElementById("7").disabled = true;
+                turn = 1;
+
+
+            }
+            else {
+                player.innerText = 'turn player X'
+
+
+
+                document.getElementById("7").innerText = 'O'
+                document.getElementById("7").disabled = true;
+                turn = 0;
+            }
+            condition()
+
+        }
+
+
+        )
+
+        document.getElementById('8').addEventListener('click', () => {
+
+            if (turn == 0) {
+                player.innerText = 'turn player O'
+
+                document.getElementById("8").innerText = "X";
+
+                document.getElementById("8").disabled = true;
+                turn = 1;
+
+
+            }
+            else {
+                player.innerText = 'turn player X'
+
+                document.getElementById("8").innerText = 'O'
+                document.getElementById("8").disabled = true;
+                turn = 0;
+
+
+            }
+            condition()
+
+        }
+
+
+        )
+        document.getElementById('9').addEventListener('click', () => {
+
+            if (turn == 0) {
+                player.innerText = 'turn player O'
+
+
+
+                document.getElementById("9").innerText = "X";
+
+                document.getElementById("9").disabled = true;
+                turn = 1;
+
+
+            }
+            else {
+
+                player.innerText = 'turn player X'
+
+                document.getElementById("9").innerText = 'O'
+                document.getElementById("9").disabled = true;
+                turn = 0;
+            }
+            condition()
+
+        }
+
+
+        )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        document.getElementById('btn').addEventListener('click', () => {
+
+
+            location.reload()
+
+            document.getElementById('winnerInfo')
+
+        })
+
+    </script>
+
+</body>
+
+</html>

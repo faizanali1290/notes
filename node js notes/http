@@ -1,0 +1,4 @@
+to access web page of any webapplication you  need a web server 
+
+res.writehead(404)
+this is used to set status code

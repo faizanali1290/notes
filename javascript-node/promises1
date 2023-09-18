@@ -1,0 +1,28 @@
+promises fullfill as a resolve as reject
+promise is a exection of code state 
+if we interested only error we can use null as frist argument .then(null,f) or we can used catch
+hen mean the promise is completed and what do you do
+errro find in promises
+
+.then((value)=>{
+alert('hello world')
+}
+,(error)=>{
+new error('here error')
+)
+
+.then() promise one hogaya tab
+.catch()
+
+syntax of promise
+
+
+
+let p=new promise ((reject,resolve)){}
+
+
+
+
+promises chaning
+
+

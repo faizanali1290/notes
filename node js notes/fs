@@ -1,0 +1,28 @@
+fs.readFile(): reads the contents of a file
+fs.writeFile(): writes data to a file, replacing the file if it already exists
+fs.appendFile(): appends data to a file
+fs.readdir(): reads the contents of a directory
+fs.mkdir(): creates a new directory
+fs.rename(): renames a file or directory
+fs.unlink(): deletes a file
+fs.rmdir(): deletes an empty directory
+fs.stat(): gets information about a file or directory
+fs.watch(): watches for changes to a file or directory
+fs.access(): checks a file for accessibility.
+fs.accessSync(): synchronously checks a file for accessibility.
+fs.appendFile(): appends data to a file.
+fs.appendFileSync(): synchronously appends data to a file.
+fs.chmod(): changes the mode of a file.
+fs.chmodSync(): synchronously changes the mode of a file.
+fs.chown(): changes the ownership of a file.
+fs.chownSync(): synchronously changes the ownership of a file.
+fs.close(): closes an open file.
+fs.closeSync(): synchronously closes an open file.
+fs.copyFile(): copies a file.
+fs.copyFileSync(): synchronously copies a file.
+fs.createReadStream(): creates a readable stream.
+fs.createWriteStream(): creates a writable stream.
+fs.exists(): checks if a file or directory exists.
+fs.existsSync(): synchronously checks if a file or directory exists.
+fs.fchmod(): changes the mode of a file.
+fs.fchmodSync(): synchronously changes the mode of a file.

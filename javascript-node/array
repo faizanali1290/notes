@@ -1,0 +1,64 @@
+array are mutet
+there are two syntax in array
+array_name=[vaues1,values2]
+array_name = new array()
+push()
+pop ()
+unshift ()
+shift ()
+sort(to arrange number (all number alphabatically)) it modified original array
+reverse()
+splice() add and remove element in array it change original array
+slice() it doesn't change original array not include last index
+The slice() method slices out a piece of an array.
+join() it is similat to padstart
+for in ()
+find()  it return frist conditon statisfied value
+findindex() similar to find but it return frist index
+map loop
+filter
+fill(3) it change all the value of the given array
+reduce
+is Array()
+flat nested array to bring to his parent
+Array.from(nameofelement) to convert string to array
+
+
+object{
+    the frist is key:and the secont is key values2
+    name:faizan,
+}
+for of()
+.delete
+Object.entries() to convert object to pair value to convert
+Object.keys
+
+call () the call method is a predefined javascript method
+with call() an object can use  a method belonging to anothe object
+
+parentObjectname.methodname.call(childobjectname,arragument"if a method has arrgument")
+apply() is similar to call method
+the call method take arrgument separetly
+the apply method take arragument as array
+
+
+
+
+call bind apply is used to method borrowed
+the difference call and apply is that in call the paramtere is pass normal way but apply method parameter can pass as in array
+immegentlly invoke
+
+but the bind method can return a new function 
+
+
+
+
+
+
+bind() method by this method we can bind to an object  to a common function  so that  the function gives differen result when its need
+this bind() method takes an object  as  an argument and creates a new function 
+let z=methodname.bind(objectnamewhich you want to bind)
+z()
+
+
+

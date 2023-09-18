@@ -1,0 +1,11 @@
+const {reolvedData,latestData,status}=usePaginateQuery(["p",p],fetchdata)
+it is similart to useQuerry but it give slidling difference values 
+resoveData the is the last successfully data
+latestData  that is the acutal data that get from querry it lastest data is fetch the background data
+
+the latesData give the data to reolve data
+
+we can map the reolvedata
+
+
+<button onClick()=>setpage(old()=>(!latestData||!latestData.nex?old:old+1)) >next</button>

@@ -1,0 +1,34 @@
+import createApi fetchBaseQuerry
+
+reducerPath in RTK Query is an option to specify the custom slice name in the Redux store where the data for a specific API will be stored.
+
+baseQuery in RTK Query is an option that allows you to define the base HTTP client configuration for making requests to your API endpoints
+
+baseUrl
+endPoint
+builder.query when we used  query that time when we have get method
+
+query
+url
+  
+export {useGetAllQuery}=postAPi
+setupListeners
+
+
+inside :reducer:{
+[postApi.reducerPath]:postAPi
+middleware:()=>getDefaultMiddleware().concat(postAPi.middleware,)
+
+}
+//this middelware is used to cache and get other feature of RTK qerry
+setupListeners(store.dispatch) //it enable refetch
+builder.mutation
+
+createApi({
+
+
+})
+
+
+shadcnui
+pro slider

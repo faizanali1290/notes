@@ -1,0 +1,53 @@
+comparasion operator
+
+databasename.find({name:"faizan"}).select(name:1)
+the select method is used to if we have multiple key field valye with only show this name:"faizan" then we used this method
+
+
+
+
+comparasion operator
+
+$gt
+syntax{field:{$gt:value}}
+$gt
+$gte
+$in matches any of the values specified in an array 
+
+if have meet two condtion e,g if we need that person for database that have typwis backedn, and database that select then we used
+
+syntax{field:{$gt:['frontend','backend']}}
+
+$lt
+$lte
+$ne  matches all values that are not equal to specified this value
+$nin matches none of the values specified in an array
+
+
+
+logic operator
+
+$and
+$not
+$nor	
+it matches documents that do not match either of the specified conditions.
+$or
+
+syntaxfind($or:[{name:'faizan'},{expression},{we can write multiple express}]})
+
+
+if we have the logic apply how many document that meet this condition to find count to used
+find().count()
+or
+find().countDocuments()
+
+
+document sorting
+find().sort({'name:1'})
+
+acending sort 
+
+find().sort({'name:-1'})
+decending
+
+

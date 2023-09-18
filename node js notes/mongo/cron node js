@@ -1,0 +1,26 @@
+node 
+*     *     *   *   *
+┬     ┬     ┬   ┬   ┬
+│     │     │   │   │
+│     │     │   │   └───── day of week (0 - 6) (Sunday to Saturday; 7 is also Sunday on some systems)
+│     │     │   └────────── month (1 - 12)
+│     │     └─────────────── day of month (1 - 31)
+│     └──────────────────── hour (0 - 23)
+└───────────────────────── minute (0 - 59)
+
+const cryon=require('node-cron')
+
+stop value
+cron.schedule(*/10****)
+
+thi mean that it can run every 10 secound
+ range value
+ 
+ cron.shedule('*5-10****')
+
+multiple values
+
+cron.shudle('5,6,25,35*****')
+
+
+.eyJfaWQiOiI2M2VmMjc5MDMyNDNlY2EzZDNmODE3NTYiLCJpYXQiOjE2NzY2MTc4ODAsImV4cCI6MTY3NjYxNzg4OX0.8758X2OmDKjJrc99BjKDlfoNoqhJUpMS7sr7Rf4-QFI

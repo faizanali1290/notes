@@ -1,0 +1,27 @@
+const secret = speakeasy.generateSecret({
+  name: "nodejs-class",
+});
+
+const GenerateQR = async (req, res) => {
+  const token = await qrode.toDataURL(secret.otpauth_url);
+
+  return res.status(200).send(token);
+};
+
+const VerifyQR = async (req, res) => {
+  const tokenValidates = speakeasy.totp.verify({
+    secret: secret.base32,
+    encoding: "base32",
+    token: req.body.token,
+  });
+
+  if (tokenValidates) {
+    res.status(200).json({
+      message: "Verified successfully",
+    });
+  }
+
+  res.status(400).json({
+    message: "Invalid Code",
+  });
+};

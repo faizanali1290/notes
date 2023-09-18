@@ -1,0 +1,13 @@
+both useMemo and useCallback hook can used to increase the performance of our application
+the react usecallback hook retun s a memoized callback funcion
+
+use callback hook is similar to useMemo but the differnce is that the usememo can return memoize value  and usemCallback hook return  memoized function
+
+
+the state have another function  a update state other component function can rerender to resolve this issue we can used useCallback()
+child todo component can call
+
+
+
+useMemo tab used karna ha jab app ko kesay ka value ko return karan ha
+useCallback() tab used karana ha jab hum ko ak function ko return karna ha  ya child component ja sat khalna ha 

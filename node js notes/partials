@@ -1,0 +1,8 @@
+partials 
+if we have any component or any thing that can be used in our project many pages like header footer this is called paratial
+
+if any component can be used in many pages then we create  partials and used it as reference
+
+hbs.registerPartials('./template/partials')
+
+where we used paraital here place {{>givefilename}} 

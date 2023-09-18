@@ -1,0 +1,26 @@
+align-self-xxl-start this property is used to if we have want to the backgorund cover the text that have the text
+align-self-end it is similar to self-start  but it align bottom
+
+align-self-md-center
+align-self-lg-stretch
+align-self-baseline when we used baseline property it will be set the align  botom text
+ 
+ 
+ align content
+ 
+ The align-items property of flex-box aligns the items inside a flex container along the cross axis just like justify-content does along the main axis. (For the default flex-direction: row the cross axis corresponds to vertical and the main axis corresponds to horizontal. With flex-direction: column those two are interchanged respectively).
+
+Here's an example of how align-items:center looks:
+
+align-items: center
+
+But align-content is for multi line flexible boxes. It has no effect when items are in a single line. It aligns the whole structure according to its value. Here's an example for align-content: space-around;:
+ 
+ align-content-start it used to remove strethc in flex
+ align-content-xl-end
+ align-content--md-center
+ align-content-between
+ align-content-evenly
+ align-content-around
+ align-content-stretch
+ 

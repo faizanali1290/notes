@@ -1,0 +1,48 @@
+res.send(): Sends a string, buffer, JSON object or an array to the client as the HTTP response.
+
+res.json(): Sends a JSON response to the client.
+
+res.render(): Renders a view template with a specified template engine and sends the HTML string to the client as the HTTP response.
+
+res.redirect(): Redirects the client to the specified URL.
+
+res.download(): Prompts the client to download the file at the specified file path.
+
+res.sendFile(): Sends the file at the specified file path to the client.
+
+res.status(): Sets the HTTP status code of the response.
+
+res.cookie(): Sets a cookie on the client's browser.
+
+res.clearCookie(): Clears a cookie on the client's browser.
+
+res.header(): Sets a response header with a specified value.
+
+res.type(): Sets the content type of the response.
+
+res.format(): Sets the response format based on the Accept header of the request.
+
+res.attachment(): Sets the Content-Disposition header to "attachment" with a filename.
+
+res.end(): Ends the response process.
+res.locals(): Provides a way to pass data to the view engine. The values set in res.locals are available in the views.
+
+res.type(): Sets the Content-Type header of the response. This method accepts a MIME type or a file extension, and sets the Content-Type header accordingly.
+
+res.set(): Sets the response headers. This method accepts an object, where each key-value pair represents a header.
+
+res.jsonp(): Sends a JSONP response to the client. This method is used when making cross-domain requests using JSONP.
+
+res.location(): Sets the Location header of the response, which is used to redirect the client to a new URL.
+
+res.links(): Sets the Link header of the response, which is used to provide links to related resources.
+
+res.sendfile(): Sends a file to the client as the HTTP response. This method is similar to res.sendFile(), but uses the sendfile system call to serve the file.
+
+res.sendStatus(): Sets the HTTP status code of the response based on the provided status code. This method is useful for quickly sending a response with a specific status code, without sending any additional data.
+
+res.vary(): Sets the Vary header of the response, which is used to indicate that the response varies based on the values of one or more request headers.
+
+res.write(): Writes data to the response stream.
+
+res.flush(): Forces any pending data on the response stream to be sent to the client.

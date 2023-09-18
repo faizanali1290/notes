@@ -1,0 +1,49 @@
+.table give you a normal table
+
+
+table variants class
+table-primary
+if we change the td tr th then we used
+.table-success
+
+if we have want to one row  color and the other have no color then we used this classs
+.table-striped
+
+
+if we have want to if hover own the row then it color change then we used this class it work on table class
+.table-hover
+
+
+if we have want to particular td shwo active then we used this class
+.table-active
+
+
+table  border
+
+if we have want to all border include td then we used this class it's like border-collapse:collapse
+.table-borderd
+
+
+if we have want to remove border then we used this class
+table-borderless
+
+
+if we used this class automatically  less the size of table
+
+.table-sm
+
+
+table had on only two color avaiable
+
+.table-light
+.table-dark
+
+by deafault the caption is gone to the table bottom but if have want to add top then we used this class
+.caption-top
+
+
+responsive table class
+
+
+ if we have want to table responsive the we give div outside the table then add this class
+ .table-responsive

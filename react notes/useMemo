@@ -1,0 +1,18 @@
+using use memo we can increse the performance of our react app useMemo hook Returns a memoized vlaue
+(what is memoized )
+memoized  is an optimization  feature in react  which when  used in the right place increase the  performance of the program
+
+if we used useState() and useEffect it can re render the component
+in useEffect we can not retun any value but in useMemo we can return a value
+useMemo can re render
+
+useMemo  look like useEffect same funcionalitu of depencey array and clean up funcion
+
+
+const varaiblename=useMemo(()=>{
+
+return 
+})
+
+useMemo hook returns a memoized value
+useCallback retun  a memoized callback 

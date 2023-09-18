@@ -1,0 +1,5 @@
+heap memory contain  primitive datatype and reference variable
+
+Heap memory is typically used to store data that is not known at compile time or that may change in size or shape during program execution.
+
+When the variables are no longer needed, JavaScript's garbage collector automatically deallocates the memory they were using.

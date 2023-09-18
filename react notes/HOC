@@ -1,0 +1,10 @@
+what is highere component order
+to chare common functionality between components
+
+HOC
+A pattern where takes a component as an argumnet and return a new component
+
+ ak component jo ak dosary component asen prop lata ho or ak alak say component return karta ha
+ 
+ to get component as input and output
+ adding and removing some functionality

@@ -1,0 +1,33 @@
+<ul class='list-group'>
+<li class='list-group-item'>
+this class is used frist given all of side li border
+
+
+
+<ul class='list-group list-group-flush'>
+<li class='list-group-item active'>
+<li class='list-group-item active diabled'>
+
+list-group-flush is used to remove border from side is used ul 
+
+
+
+if we have similar work with <a> and button anchor tag than we used
+or
+this class is used to hover effect
+
+<ul class='list-group '>
+<a class='list-group-item list-group-action'>
+
+<button class='list-group-item list-group-action'><buton>
+
+
+
+oder list
+
+
+<ol class='list-group list-group-numberd'>
+<li class='list-group-item'>one<li>
+
+
+</ol>

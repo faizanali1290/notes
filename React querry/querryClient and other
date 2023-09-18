@@ -1,0 +1,38 @@
+In React Query, the QueryClient is a central object that manages the cache and provides methods for fetching and updating data. When you create a QueryClient instance, you can use it to manage all of the queries in your application.
+
+
+
+import { QueryClient } from 'react-query'
+
+export const client = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 30000,
+      cacheTime: 60000,
+      retry: false,
+    },
+    mutations: {
+      onError: (error, variables, context) => {
+        console.log(`Error in mutation: ${context}`, error)
+      },
+      onSuccess: (data, variables, context) => {
+        console.log(`Mutation successful: ${context}`, data)
+      },
+    },
+  },
+})
+
+
+
+
+defaultOptions: An object that specifies default options for all queries and mutations. For example, you can set the default staleTime (how long data can be considered fresh) or cacheTime (how long data should be cached).
+mutations: An object that contains options for mutations. You can use this to specify options such as the mutation function, onSuccess and onError callbacks, and more.
+queries: An object that contains options for queries. You can use this to specify options such as the query function, polling interval, and more.
+queryCache: An instance of the QueryCache class that stores cached query data. By default, a new QueryCache instance is created automatically when
+
+ you create a new QueryClient instance.
+ 
+ 
+ 
+ 
+ QueryClientProvider is a component provided by the React Query library. It is used to wrap your React application and provides a QueryClient instance to the component tree

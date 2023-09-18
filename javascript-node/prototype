@@ -1,0 +1,9 @@
+prototypes are  the mechanism by which javascript objecs inherit features from one another
+
+if we make one __proto__ and we want to show this protoype from all object th
+
+Object.prototype.objectName={}
+String.prototype.stringName=''
+Array.prototype.arrayName=[] 
+wq
+:wq

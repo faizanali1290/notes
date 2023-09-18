@@ -1,0 +1,81 @@
+button classess
+
+btn classes is used to shpae the button
+btn-primary
+btn-link
+role='button'
+
+outline button classes
+btn-outline-primary
+
+
+button size
+
+btn-lg
+btn-sm
+
+
+<div class='d-grid gap-4'> this method is used to make button with full width
+<button>button</button>
+<button>button</button>
+
+</div>
+
+
+
+active and disabled
+.active
+.disabled
+
+
+
+button group classes
+
+<div class='btn-group btn-group-lg btn-group-sm'>
+<button>
+<button>
+</div>
+
+
+
+
+
+button group Toobar classes
+
+<div class='btn-toolbar'>
+
+<div class='btn-group btn-group-lg btn-group-sm'>
+<button>
+<button>
+</div>
+
+
+
+</div>
+
+toolbar class is used to when we want the multiple button group
+
+
+button gruoup vertical
+
+btn-group-vertical
+
+
+button group nesting classess
+
+
+
+<div class='btn-group'>
+
+<button class='btn btn-primary drop-down-toogle'>drop down<button>
+<ul class='dropdown-menu'>
+<li class='dropdown-item'>
+
+<ul>
+
+</div>
+
+
+
+
+

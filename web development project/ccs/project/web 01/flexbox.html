@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contanier {
+            height: 2000px;
+
+            border: 3px solid red;
+            display: flex;
+            /* flex-direction: column; */
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* justify-content: end; */
+            /* justify-content: baseline;
+            justify-content: first baseline;
+            justify-content: left; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around;
+            justify-content: space-evenly; */
+            /* align-items: center; */
+            align-items: stretch;
+
+
+
+        }
+
+        .box {
+
+            margin: 5px;
+            padding: 5px;
+
+            width: 200px;
+            height: 200px;
+
+            border: 3px solid gold;
+
+        }
+
+        #box1 {
+            order: 5;
+            /* flex-grow: 3; */
+            flex-shrink: 3;
+            /* flex-basis: 44px; */
+            /* align-self:flex-end */
+            align-
+        }
+
+        #box2 {
+            order: 4;
+
+        }
+
+        #box3 {
+            order: 3;
+        }
+
+        #box4 {
+            order: 2;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contanier">
+        <div class="box" id="box1">box one 01</div>
+        <div class="box" id="box2">box one 02</div>
+        <div class="box" id="box3">box one 03</div>
+        <div class="box" id="box4">box one 04</div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+float-xl-start
+float-md-end
+clearfix this property is used to if the parent have height is less and child have greater than we used clear fix
+float-xl-none
+mw-100
+width-auto
+h-auto
+vh-100
+min-vh-100
+vw-100
+  

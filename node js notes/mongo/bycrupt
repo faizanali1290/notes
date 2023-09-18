@@ -1,0 +1,15 @@
+encruption vs hashing
+
+in encruption the encode  can be dcruption 
+
+hashing is one way communction  (one way communction if we write faizan)
+in hasing the real value can be hasing it can not be encode decode the hasing value can not be convert original value
+some website
+md5 Encraption
+Bcrypt
+
+npm bcryptjs
+const bcrypt=require('bcryptjs')
+bcrypt.hash(password,10) the 10 round is by default
+bcrypt.compare(password,10) 
+securepassword()

@@ -1,0 +1,17 @@
+
+npm i cookie parser
+
+to get cookie
+    const cok = req.cookies.jwt
+     resp.cookie('jwt', token, {
+                    // expires: new Date(Date.now() + 3000),
+                    httpOnly: true
+
+                    // httpOnly tell that the client side scripting language may not be effect the token
+                })
+    app.use(cookieParser())
+
+
+ // the response.cookie() function is used to set the cookie name to value
+                // the value prameter ma be a string or object converted to string
+                // syntax res.cookie(name,value,[option])

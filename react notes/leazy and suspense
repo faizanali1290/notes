@@ -1,0 +1,37 @@
+Suspense is a React feature that allows you to declare a fallback component to render while a component is waiting for some data to load
+
+
+lazy is a feature in React that allows you to load components lazily, i.e., only when they are actually needed. This can improve the performance of your application by reducing the amount of JavaScript that needs to be downloaded and parsed by the browser, as well as the amount of work that needs to be done during the initial render.
+
+
+
+import logo from './logo.svg';
+import './App.css';
+import Loader from './loader/Loader';
+import React, { Suspense, useEffect, useState, lazy } from 'react';
+
+const Components = lazy(() => import('./Components'))
+// import Components from './Components';
+
+function App() {
+
+
+
+
+  return (
+    <>
+      <Suspense fallback={<div>loading</div>}>
+
+
+
+
+        <Components />
+
+      </Suspense>
+
+    </>
+
+
+
+
+  )

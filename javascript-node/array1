@@ -1,0 +1,21 @@
+array
+there are two syntax in array
+array_name=[vaues1,values2]
+array_name = new array()
+push()
+pop ()
+unshift ()
+shift ()
+
+for of ()
+map loop
+filter
+reduce
+flat
+
+object{
+    the frist is key:and the secont is key values2
+    name:faizan,
+}
+.delete
+

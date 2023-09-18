@@ -1,0 +1,14 @@
+when we used useeffect it render two time frist the previous value and the second updated value
+if we have multiple useEffect can used one component it work top to bottom
+
+
+uselayouteffect dom ko manipulate karan sa ply dom ko update hona sa ply  can display 
+
+
+
+useLayoutEffect run synchronously after a render but before the creen updated
+
+useEffect runs asynchrounously and after a render is painted to the screen
+
+
+note if we have wnat to when the screen have been update before the information can show then we used useLayoutEffect

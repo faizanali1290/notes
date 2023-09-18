@@ -1,0 +1,7 @@
+these can be helpful whe we refetch data when user post and show the user latest post
+
+tagType:["book"]
+provideTag:["book"]
+invalidation:["book"]
+
+if the providetag===invalidation value match which value have match it can be call again the function

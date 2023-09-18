@@ -1,0 +1,6 @@
+sudo dpkg -i /absolute/path/to/deb/file sudo apt-get install -f.
+
+
+tar -xzf filename.tar.gz
+./install_script_name
+

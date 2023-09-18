@@ -1,0 +1,5 @@
+path module
+the path module provides utilities for working file nad directory paths. It can be accessed using
+require('path')
+
+mudule wraper 

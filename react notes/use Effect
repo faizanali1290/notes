@@ -1,0 +1,38 @@
+hook 
+hook are the nw feature introduced in the react 16.8
+it allows you to use state and Other react feature with writing a class hook. hook are the function which "hook" in react state and life cycle feature from fucntion component
+
+hooks should alway be used at the top level of the react fucntion
+
+
+useEffect
+the effect hook lets you perform side effects (side effect are basically anything that affects something outside of the scope if the current fucntion that being executed
+api request call authentication service error tracking, manually change dom
+) in function component
+
+side effect in other word
+if we have work outside the current function called side effect then  we use useeffect
+
+
+the used effect automatically call when the page reload
+if we used same page   useState and useEffect the useState Rerender the useEffect 
+
+
+
+
+dependecy list use effect
+using dependency jas ka through ya control karsaktay ha mara use effect kab render hona ha or kab chalna ha 
+
+
+if we want to something render when page load then we used dependecy[] it run only one time
+if we want to the value can be change then the useEffect run then we pass elemnt in dependecy [count]
+
+
+
+clean up function
+
+is used to clean the fucntion
+
+
+
+

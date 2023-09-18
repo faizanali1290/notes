@@ -1,0 +1,35 @@
+what is schema
+
+mongoose schema help defines the structure of the document, default values, validators,etc
+
+we can define the struture 
+we can set document filed data type
+
+const playlistSchema=new mongoose.Schema({
+name:string,
+age:{
+type:number,
+require :true
+}
+
+
+
+
+})
+in require mean it must the data type number
+
+
+what is models
+
+
+
+
+
+
+A mongoose model is a wrapper on the mongoose schema.
+a mongoose model provides an interface to the data base for creating, quering,updating,deleteing record etc
+
+
+notes model create mean collection create 
+const Playlist=new mongoose.model("collectionName",define schema )
+

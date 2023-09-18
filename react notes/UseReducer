@@ -1,0 +1,30 @@
+use reduce hook is similar to use state 
+if we have work multiple state then we use useReducer
+
+useReduce give two arragument the frist is function and the seocnd is initial value
+
+useReducer(reducer,initialvalue)
+
+what is reducer function 
+
+reducer are pure functions that take in a state and action and return new state
+
+the function return the same output if the same arguments are passesd in
+
+const [state,dispatch]=useReducer(reducer,initialState)
+
+dispatch is the function
+
+and the reducer function can two parameter 
+
+reducer(state,action)
+
+const [state,dispatch]=useReducer(reducer,initialState)
+
+the initialstate value can be access the state
+dispatch trigger the action what action can be perform
+dispatch({type:'increment'})
+reducer((state,action)=>{
+
+if(action.type==='')
+)

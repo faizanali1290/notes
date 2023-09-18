@@ -1,0 +1,46 @@
+color
+
+
+background
+bg-primary blue
+bg-secondary gray
+bg-success green
+bg-danger  red
+bg-warning yellow
+bg-info cyan
+bg-light white
+bg-dark
+bg-body
+bg-white
+bg-transparent
+ 
+ 
+gradient color
+bg-primary.bg-danger
+
+
+background opacity
+
+bg-opacity-75
+bg-opacity-50
+bg-opacity-25
+bg-opacity-10
+
+
+
+text
+
+
+text-muted
+text-black-50
+text-white-50
+
+
+background opacity
+
+text-opacity-75
+text-opacity-50
+text-opacity-25
+text-opacity-10
+
+

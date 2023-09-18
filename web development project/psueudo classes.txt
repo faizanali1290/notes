@@ -1,0 +1,76 @@
+:frist-child
+:last-child
+:nth-child()
+:nth-last-child()
+:nth-of-type()
+:nth-last-of-type()
+:only-child
+:only-of-type
+:frist-of-type
+:last-of-type
+:empty
+:not()
+:lang()
+:link
+:hover
+:visited
+:active
+:target
+:focus
+:checked
+:disabled
+:enabled
+:required
+:optional
+:in-range
+:out-of-range
+:read-only
+:read-write
+:valid
+is used to text
+shape-outside:
+
+:invalid
+:default
+:root
+
+
+$%*jkttFT074
+html{
+font-size:62.5%;
+
+}
+
+
+@media(max-width:998px){
+font-size:55%}
+
+@media(max-width:768px){
+font-size:45%}
+div.items#items-1$*7
+flex-flow:row wrapped;
+flex:flex-grow flex-shrink flex-basis
+
+
+
+parent:
+display:grid
+grid-template-row
+grid-template-area
+
+
+child
+grid-row-start:
+grid-row-end:
+grid-coloumn-start:
+grid-coloumn-end:
+grid row:start/2
+grid-area:grid-row-start/grid-column-start/grid-row-end/grid-column-end
+
+
+
+implict grid  
+we can define a grid 
+explict grid
+we can't define but it show
+

@@ -1,0 +1,20 @@
+img{
+    /* width: 20%; */
+    border:5px solid yellow;
+    height: 200px;
+    width: 200px;
+}
+.parent{
+    /* width: 80px; */
+    /* height: 400px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    grid-template-rows: repeat(3,300px);
+    /* grid-gap: -40rem; */
+    /* grid-auto-rows: 100px; */
+/* }.parent :nth-child(3){ */
+    /* align-self: flex-end; */
+    grid-row: 1/1;
+    grid-column: 6/7;
+
+}

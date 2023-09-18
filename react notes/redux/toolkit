@@ -1,0 +1,5 @@
+In the context of Redux, a "slice" refers to a subset of the Redux store state that is managed by a specific set of actions and reducers.
+
+when we change the state then we called dispatch action jo reducer ka pas jata ha
+
+combination of state and action we can create new state 

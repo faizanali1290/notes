@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+
+        }
+        .container{
+            
+            background-color: red;
+            color:black;
+            font-size: 2rem;
+           
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns:repeat(3, auto);
+
+          }
+        .item{
+            background-color: rgb(11, 127, 230);
+            border:2px solid yellow;
+            margin-top:8px;
+            margin-bottom:8px;
+           
+             }
+        #items1
+        {
+            /* grid-column-start: 1; 
+            grid-column-end: 3; */
+            grid-row-start: 1;
+            grid-row-end: 4;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="items1">items</div>
+        <div class="item">items</div>
+        <div class="item">items</div>
+        <div class="item">items</div>
+        <div class="item">items</div>
+        <div class="item">items</div>
+        <div class="item">items</div>
+        <div class="item">items</div>
+        <div class="item">items</div>
+        
+
+
+    </div>
+</body>
+</html>

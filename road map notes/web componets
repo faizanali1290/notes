@@ -1,0 +1,4 @@
+
+// The <template> tag in HTML is used to define reusable HTML content that is not rendered when the page loads. It provides a way to declare inert or inactive HTML markup that can be cloned and inserted into the document dynamically.
+
+// By calling cloneNode(true) on the content property, you are creating a deep clone of the content within the template.

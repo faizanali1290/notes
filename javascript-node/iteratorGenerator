@@ -1,0 +1,25 @@
+			iterator
+
+iterators are the  method that is used to iterate element with own power   traversinng
+it can be used as object array and string
+
+let x=['apple','babnana','orange']
+let y=x[symbol.iterator]();
+y.next() mean the frit value of array are come to y.next
+y.next() mean the second value of array come to y.next
+y.next()....
+
+
+
+generator
+
+
+generator is a function
+
+generator syntax
+function* generaotr(){
+yield(mean paused)
+}
+if we have want to control with statement then we used (yield)
+
+

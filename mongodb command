@@ -1,0 +1,23 @@
+ sudo systemctl start mongodb
+
+
+You can repair
+
+$ sudo rm /var/lib/mongodb/mongod.lock
+ mongod --repair
+$ sudo service mongodb start
+For Stop
+
+$ sudo service mongodb stop
+For Restart-
+
+$ sudo service mongodb restart
+For Status-
+
+$ sudo service mongodb status
+
+
+
+mongo-compass start
+
+mongod-compass

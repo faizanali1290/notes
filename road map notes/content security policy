@@ -1,0 +1,26 @@
+default-src 'self'; - This directive allows resources (such as scripts, styles, images, etc.) to be loaded only from the same origin as the web page. In this context, 'self' refers to the origin of the web page itself.
+
+script-src 'self'; - This directive allows scripts to be loaded only from the same origin as the web page. In this context, 'self' refers to the origin of the web page itself.
+
+frame-src 'self'; - This directive allows frames to be loaded only from the same origin as the web page. In this context, 'self' refers to the origin of the web page itself.
+
+connect-src 'self'; - This directive allows the web page to make network requests (such as AJAX requests) only to the same origin as the web page. In this context, 'self' refers to the origin of the web page itself.
+
+font-src 'self' https://example.com https://cdn.example.com: Allows fonts to be loaded from the same origin as the web page, from https://example.com, and from https://cdn.example.com.
+
+connect-src 'self' https://example.com https://api.example.com: Allows connections to be made from the same origin as the web page, from https://example.com, and from https://api.example.com.
+
+frame-src 'self' https://example.com: Allows frames to be loaded from the same origin as the web page and from https://example.com.
+
+
+media-src 'self' https://example.com: Allows media resources (such as audio and video) to be loaded from the same origin as the web page and from https://example.com.
+
+object-src 'self' https://example.com: Allows plugins (such as Flash) and other types of embedded content to be loaded from the same origin as the web page and from https://example.com.
+
+frame-ancestors 'none': Prevents the web page from being loaded in an iframe on any other website. This is a useful security measure to prevent clickjacking attacks.
+
+form-action 'self' https://example.com: Restricts where form submissions can be sent. In this example, form submissions are allowed to be sent to the same origin as the web page and to https://example.com.
+
+base-uri 'self': Restricts the base URL for all resources (such as scripts and stylesheets) that are loaded by the web page. This can help prevent attacks that rely on relative path traversal.
+
+report-uri https://example.com/csp-report: Specifies a URL to which violation reports should be sent. When a CSP violation occurs, the user's browser will send a report to this URL, allowing you to monitor and analyze any policy violation

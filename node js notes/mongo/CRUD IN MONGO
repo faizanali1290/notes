@@ -1,0 +1,86 @@
+collection and document
+
+showdbs    to check how many data base
+db.dropDatabase()
+this is used to delete database
+
+use databasename
+note: databse like table name
+if the name exict then we work other wise it create
+
+
+to create document like coloumn
+
+db.collectionname.insertOne({"exple":"answer"})
+db.collectionname.insertMany([{name:faizan},{age:20}])
+
+show collection 
+
+this command is used to show collection
+db.documentname.find().pretty()
+
+the pretty is used to give display the text beauty
+
+THE CRUD OPERATION
+
+
+
+
+
+
+
+ 
+Read Querrying
+
+db.nameofcollecton.find(querry,projection)
+projection mean (dekhany chatay ho ya nhi )
+(querry filterying)
+
+db.collectionname.find({name:'faizan'})
+this method is used to find that has key pair name is that
+
+db.collectionname.find({name:'faizan'},{name:0/1})
+
+if we set name:1 the only disply name this method 
+if we set name:0 the does't display name and display other property
+if we have set projection filed value ==0 this mean that does't show
+
+db.collection.insertMany([{"name":"faizan","type":"backend","profession":"web developer"}])
+
+
+db.collectionname.find().limit(1)
+inside limit we can set how many document can be show 
+
+db.collecionsname.findOne()
+this is used to find one document
+the frist one can be skipt
+db.collectionname.find().limit().skip()
+
+
+
+UPDATE QUERRY
+
+
+
+ db.collectionname.updateOne({filter},{update})
+ db.collectionname.updateOne({name:'faizan'},{$set:{name:"faizan ali"}})
+ the $ set operator replaces the value of a field with the specified value
+ this method is used to when we want to update the frist find match value
+ db.collection1.updateMany()
+  findByIdUpdate({id},{$set:{name:"faizan"}})
+ 
+ 
+ 
+ 
+ DELETE QUERRY
+ 
+ db.collectionname.updateOne({"name":"faizan"},{$unset:{"age":20}})
+ FindByIdAndDelete()
+ 
+ db.collectionname.deleteMany(delete critteria)
+ this method delete many collection
+ 
+ db.users.deleteMany({"age": {"$lt": 18}})
+this method delete the document that have less than age 18
+ if we have delete all collection then
+ db.collectionname.deleteMany()

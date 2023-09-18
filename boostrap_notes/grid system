@@ -1,0 +1,43 @@
+layout and grid
+
+ IntelliSense for CSS class names in HTML
+
+
+boostrap grid feature
+boostrap grid system allows upto 12 columns across the page
+rows
+columns
+supports various screen resoultion xs=.col sm=col-sm md=col-md lg=col-lg xl=col-xl xxl=col-xxl
+
+
+grid and columns
+
+
+boostrap structure
+
+.contanier
+.row
+.col class is used to xs and also used for all 
+
+
+offset class
+.offset-md-3 is similar to margin start 
+
+reorder class
+
+an order take integer value from 0 - 5
+order-sm-first
+order-sm-5
+order-sm-last
+
+
+nesting
+.container
+row
+col
+row
+.col
+.col
+
+margin-classes
+

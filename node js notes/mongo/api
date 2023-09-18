@@ -1,0 +1,5 @@
+API
+
+application programing interface 
+api is a like service which allow us to request
+constent type if json is writehead(200,'appliaction/json')

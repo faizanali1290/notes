@@ -1,0 +1,62 @@
+node js authentiaction cookie
+JWT
+JSON WEB TOKEN
+is standarad used to create access application. it work this way the server generates the token that certificate the user idetify and send it to client
+
+npm install jsonwebtoken
+
+
+const jwt=require('jsonwebtoken')
+
+createasyn function
+jwt.sign({_id:'securt key'},{ expire date
+expirei=In:'2 seconds'
+ })
+inside object you can pass object and the second string
+
+frist.second.thrid
+
+this frist represent header contain the alogritms (what alograithum can be used to encode)
+and the second is payload mean body data
+
+
+jwt.verify(usetoken,'secureate key') 
+if the user request the server with the secreate key gone to the server
+
+
+generate outh token
+
+middle ware mean kuch kam hogana ka bad   kuch kam hona sa ply ka beack ka part middleware ha
+
+
+before data save
+const token= await modelInstanceName.funcionName()
+if we have work with instance than we have work method
+every token have generate own id
+
+schema.methods.generatetoken = async function () {
+    try {
+
+        const token = await jwt.sign({ _id: this._id.toString() }, 'mynameisfaizan',)
+
+        this.tokens = await this.tokens.concat({ token: token })
+        await this.save()
+        console.log(token)
+        return token
+    }
+    catch (error) {
+        console.log('error')
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

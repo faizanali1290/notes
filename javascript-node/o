@@ -1,0 +1,20 @@
+json
+
+json to convert string used JSON.stringfy();
+to convert string to object used JSON.parse();
+
+
+modules
+
+JavaScript modules rely on the import and export statements.
+
+You can create named exports two ways. In-line individually, or all at once at the bottom.
+
+
+
+
+document.cookie="name=faizan"
+document.cookie=`${encodeURIcomponent(varaiblename)}=${encodeURIcomponent(valuename)}=`
+encodeURIcomponent
+decodeURIcompnent("")
+this way the special character are encode

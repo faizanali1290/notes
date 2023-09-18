@@ -1,0 +1,25 @@
+git add .
+git commit -m "tell comen"
+props ==property
+export default c;
+export{a}
+import ui from './module.mjs'
+
+Props are arguments passed into React components. Props are passed to components via HTML attributes. props stands for properties.
+prop are properties i make component and pass something for component ka under variabl ha vo kiya hongay vo prop ha
+
+inside component variable that can pass programmer called prop
+
+if we have multiple prop we can pass set data type
+import PropTypes from 'prop-types'
+Navbar.propTypes={title:PropTypes.string,
+
+  about:PropTypes.string.isRequired
+}
+this method is used to set input prop type
+we can set default props
+Navbar.defaultProps= {
+
+  title: 'faizan',
+  about: "faizan about us"
+}

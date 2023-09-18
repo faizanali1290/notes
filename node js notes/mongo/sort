@@ -1,0 +1,5 @@
+by default it sort acending
+
+sort=name,price
+
+dataBase.find(req.query).sort("name -price")

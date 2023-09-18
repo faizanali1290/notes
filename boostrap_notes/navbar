@@ -1,0 +1,25 @@
+navs
+give ul .nav
+give li .nav-item  
+inside li a .nav-link
+
+
+nav-pill is used to when the user is active the that nav background color added
+li .ative
+
+For equal-width elements, use .nav-justified. All horizontal space will be occupied by nav links, but unlike the .nav-fill above, every nav item will be the same width.
+ 
+ 
+ 
+ 
+ 
+ navbars
+ 
+ navbar color change using this class navbar-light bg-light
+ 
+ navbar-expand-lg
+ this class is used to when show humbargar
+ 
+ navbar-brand
+ this class is used to add logo
+ 

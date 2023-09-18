@@ -1,0 +1,41 @@
+ <Typography  variant="h1"  component='p' >down(md): red</Typography>
+
+
+what is ui framwork
+ui framework is a cobination of  pre style compnonents and tools
+
+we can't never style from sckarch
+
+
+using component prop  we can define html element such as <p></p><h1></h1> etc but using varient the exsisting element  can styleing such as <h1></h1> and so on
+
+what is theme
+
+a theme is object where are the style or store
+
+paper
+
+ it is a div with a background color of red and white depend on color mode 
+ 
+ styled
+ impoty {style} from '@mui/system'
+ 
+ 
+ the container is 12 coloumn
+ 
+ 
+ <Grid container spacing={2} justifyContent='center '>
+ <Grid>
+ <Items xs=8 md=7 lg=10 xl=12>aspo</Items>
+ <Grid/>
+ 
+ 
+ </Grid> 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 

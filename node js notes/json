@@ -1,0 +1,6 @@
+json is a ligtweight format for storing and transporting data
+json is often used when data is sent from server  to a webpage
+
+JSON.stringfiy is used to convert object to json
+
+to convert string or object we used JSON.parse()

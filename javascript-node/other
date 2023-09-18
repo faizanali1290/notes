@@ -1,0 +1,18 @@
+node package 
+
+what is dependencie
+
+is node modules floder ko generater kar na ke jankarai package.json ma aya ge
+
+what is package.json
+package.json mean information about packages
+
+dependencier mean software name
+
+npm install mean package.json ka under jetena be dependecies ha us ko install kardo
+yarn
+yarn add (packageName)
+
+
+npm i g nodemeon
+nodmeon

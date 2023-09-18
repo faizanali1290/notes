@@ -1,0 +1,22 @@
+tailwind css utility frist framework
+
+
+why we used tailwind
+
+to setup tailwind css run these command
+
+1- npm init-y that initializes the directory as node js project
+2- npm install -D tailwind css postcss outoprefixer vite //install required packages
+3- npx tailwind init -p 
+this command generate the css config file
+create a css file input.css add it to your html and edit it with this content
+@tailwind base,
+@tailwind components
+@tailwind utilities
+
+
+if your tailwind.config.js file replace content:[] with content:[]
+
+add start:vite to your scripts in package.json
+run npm run start command to start a dev server
+

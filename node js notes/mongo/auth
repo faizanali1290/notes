@@ -1,0 +1,8 @@
+authentication 
+identify of the user are checked for provideing access to the system
+login
+
+
+authorization
+
+user authorization are checked for accessing the resource

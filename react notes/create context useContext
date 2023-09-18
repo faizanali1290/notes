@@ -1,0 +1,42 @@
+ context
+
+if we have sent to parent data to child to child to child then we can send data from top to bottom but USECONTEXT to solve this problem we can sent data from parent to direct sent pron child to child to (child 'here') 
+useContext hook is used 
+
+
+React Context API allows you to easily access data at different level of the component tree without passing prop to every level
+
+frist we import {CreateContext}
+const FristName=CreateContext()
+return(
+<FristName.provider value={its your information what can be you want to sent}> here in middle your text present</FristName.provider>
+
+)
+
+where can used 
+
+<FristName.Consumer>{(here the value you can pass)=>{
+
+}}</FristName.Consumer>
+
+
+the disadvantage of content is that the code will be complexity
+
+
+
+
+us context is similar to contex to sent data but where we used that point we need to used to usecOntext
+
+return(
+<FristName.provider value={its your information what can be you want to sent}> here in middle your text present</FristName.provider>
+
+)
+
+
+const Fname=useContext(here you can pass the vlaue)
+
+
+
+
+
+

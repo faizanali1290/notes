@@ -1,0 +1,13 @@
+mongoose 
+is an object Data Modeling (ODM) library for mongoDB and node.js .it manages relationship b/w data provides schema validation and is used to translate between objects in code and the representation of those object in MongoDb
+
+or
+
+Mongoose is an Object Document Mapper (ODM) library for MongoDB and Node.js.  that make using MongoDB easier by translating documnt in a mongodb data base to object in the program
+
+
+node
+
+
+mongoose.connect(here we can give path where is my database)
+mongoose.connect("mongodb://localhost27017/ttchanell",{userNewUrlParse:true,useUnifiedT0pology:true })

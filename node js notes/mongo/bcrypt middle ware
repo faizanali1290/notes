@@ -1,0 +1,24 @@
+in scema we can define  with work middleware  
+if we have create scema than we have come to method
+
+pre  the pre method work something should be less. it give two arguments frist what method you can use and the argument is a fucntion
+
+pre('save',async function(next){
+let z = await bctyptjs.hash(req.body.password, 12)
+
+
+here next mean the task have been complete than what shuld be do it will contine the program
+
+inside this method we can a power which one the user input value can be accesss
+this.password
+this.password=bcrypt.hash(this.password,10)
+
+isModified()
+this method is used if we have want to change something then we can do something 
+if(isModified('password'))
+
+nex()
+
+})
+
+post the post method work the something work have been complete

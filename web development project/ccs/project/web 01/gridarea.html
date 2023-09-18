@@ -1,0 +1,109 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contanier {
+            background-color: rgb(47, 255, 0);
+
+            font-size: larger;
+            display: grid;
+            grid-gap: 6px;
+
+            grid-template-areas: "header header"
+                " section aside"
+                "footer footer ";
+            height: 90vh;
+
+
+        }
+
+        header {
+            grid-area: header;
+
+            background-color: black;
+            color: antiquewhite;
+            border: 2px solid yellow;
+     
+
+
+
+        }
+
+        header ul li {
+            list-style: none;
+            g
+        }
+
+        section {
+            grid-area: section;
+            border: 2px solid yellow;
+
+            background-color: brown;
+            height: 300px;
+
+
+
+        }
+
+        aside {
+            grid-area: aside;
+            border: 2px solid yellow;
+
+            background-color: blue;
+            height: 300px;
+
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: black;
+            color: wheat;
+
+        }
+
+        footer {
+            display: block;
+
+            
+            text-align: center;
+          margin-top: auto;
+          height: 70px;
+          
+        
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contanier">
+
+        <header>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>contant us</li>
+            </ul>
+        </header>
+
+        <section>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, reiciendis voluptatem voluptatum quas
+            voluptates, deleniti optio qui eligendi, repellat aspernatur cum fuga architecto officia vero minima?
+            Mollitia laboriosam fuga enim et, soluta quidem.
+        </section>
+        <aside>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur fugiat delectus magnam quae blanditiis
+            neque commodi accusamus cupiditate aliquam voluptatem dolorem dignissimos harum, exercitationem placeat
+            asperiores ipsam, unde laboriosam a alias ullam reprehenderit.
+        </aside>
+        <footer>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, vero. Odio, repudiandae.
+        </footer>
+    </div>
+
+</body>
+
+</html>

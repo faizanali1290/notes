@@ -1,0 +1,36 @@
+pre rendering
+
+when we visit the difficult  react website we can shift html css and js file on the client side
+
+and the html file have no content of all source
+
+
+reat js  next js ka used karta hova bg diffult prerender pages baj ta ha
+to maintain  seo
+to get contain socail vist 
+and the react appication can render  with the js
+
+to solve this problem next js can used thwo primary stragtegies
+one is server side rendering
+on request sever can send file on the client side
+
+ 
+second is static side generators
+
+hota ya next js ke full website to convert static website
+
+
+where the content change that place used the server side rendering
+
+where the live change some thing that palce used it server side rendering
+
+
+we can used the pre rendring ke stategies ko used karta hovay page source ka under ya content dekha
+means ui content
+
+server side rendering 
+client side rendering
+
+
+
+nish meaning

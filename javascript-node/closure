@@ -1,0 +1,22 @@
+regular expression
+regexr.com
+/very/g
+. character mean any charater add given text
+- used to range
+\d mean digits
+^ mean not in the set
+* mean 0 or more 
+
+
+closure
+
+
+closure in action that is inner function can have access to the outer function variables/parmeter as well as all the global varaibles
+ a closure is the combination of a function and the lexical enviroment within which that function was declared
+
+
+the scope chain is used to resolve the value of variable names in javascript
+
+scope chain  in javacript is lexically (mean where function can be write)  defined , which mean that we can see what the scope chain will be by looking at the code
+lexical scoping a function that is lexically within another function get access to scope of the outer function. inner function can get access to their parent  function variables BUt the vice-versa in not true
+ 

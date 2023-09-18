@@ -1,0 +1,15 @@
+apply directive it is used to when we want to  make a desigin and it can be reuse i our project then we used apply directive
+
+.faizan{
+@apply text-red-5000 bh-gray-300
+}
+layer directive is used to when we create coustom style where we can be added then we used layer directive
+@layer components{
+
+.btn{
+@apply text-white bg-black
+}
+
+
+when to used layer directive in tailwind css
+

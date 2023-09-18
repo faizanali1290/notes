@@ -1,0 +1,169 @@
+what is internet
+when we connect network called internet working
+
+connection of computer can share information using telephone line or satellite 
+
+
+how it work
+
+
+
+
+"I am extremely pleased with the work that [freelancer's name] did on my project. [He/She] was very professional, responsive, and delivered high-quality work in a timely manner. [He/She] understood the requirements of the project very well and exceeded my expectations with the final deliverables. The communication throughout the project was excellent, and [he/she] provided regular updates on the progress of the work. I highly recommend [freelancer's name] and would be happy to work with [him/her] again in the future."
+
+
+
+
+INTERNET
+
+The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
+
+
+
+HOW IT WORK
+ It allows people all over the world to share information, communicate with each other, and access a wide range of services and resources.
+
+Here's a simplified explanation of how the Internet works:
+
+You connect to the Internet: When you connect to the Internet, your device (such as a computer, tablet, or smartphone) sends a request to your Internet Service Provider (ISP) to establish a connection.
+
+Your ISP connects you to the Internet: Your ISP provides you with a unique IP address and connects your device to the Internet through its own network.
+
+Your device sends and receives data: Once connected, your device can send and receive data over the Internet using standardized communication protocols, such as Transmission Control Protocol (TCP) and Internet Protocol (IP).
+
+Data is broken up into packets: When data is sent over the Internet, it is broken up into small packets that are sent from one device to another until they reach their destination.
+
+Routers direct packets to their destination: As the packets travel across the Internet, they pass through many different routers, which direct them to their intended destination based on the IP address of the destination device.
+
+The data is reassembled: Once all the packets reach their destination, they are reassembled into the original data and can be accessed by the recipient.
+
+This process happens countless times per second all over the world, allowing people to share information, communicate with each other, and access a wide range of services and resources.
+
+
+  BROWSER
+
+Band width 
+the amount of data that can  be tranfeted through a commiunction medium in a unit of time is called bannd width
+
+
+
+A web browser is a software application that allows users to access and view web pages on the internet. Here's a simplified overview of how a web browser works:
+
+A user types a URL (Uniform Resource Locator) into the browser's address bar, or clicks on a link on a web page or in an email.
+
+The browser sends a request to the server hosting the website, asking for the specific web page or resource that the user wants to access.
+
+The server responds with the requested web page, which includes HTML (Hypertext Markup Language) code, CSS (Cascading Style Sheets), JavaScript, images, and other assets.
+
+The browser then begins to render the web page, starting with the HTML code. The browser's rendering engine parses the HTML code and creates a Document Object Model (DOM) tree, which represents the structure of the web page.
+
+The browser then applies the CSS styles to the DOM tree, which determines how the web page looks and how its elements are positioned on the screen.
+
+The browser also executes any JavaScript code on the web page, which can add interactivity and dynamic behavior to the web page.
+
+Finally, the browser displays the fully rendered web page to the user, including any images, videos, and other multimedia content.
+
+
+
+DOMAIN  NAME
+
+A domain name is a unique name that is used to identify a website on the internet. It is the human-readable address that you type into your web browser to access a website
+
+
+A domain name consists of two main parts: the top-level domain (TLD) and the second-level domain (SLD). The TLD is the part of the domain name that comes after the dot (such as .com, .org, .net, etc.), while the SLD is the part that comes before the dot (such as example in www.example.com).
+
+HOSTING
+
+
+Web hosting is an online service that allows you to publish your website files onto the internet. So, anyone who has access to the internet has access to your website.
+
+
+Shared Hosting:where multiple websites are hosted on a single server. Resources such as disk space, bandwidth, and memory are shared among the websites, making it cost-effective but not suitable for high-traffic websites.
+
+Virtual Private Server (VPS) Hosting: This type of hosting provides a dedicated amount of resources to a website by dividing a physical server into multiple virtual servers. Each VPS acts as an independent server, providing users with more control, customization, and scalability.
+
+Dedicated Hosting: In this type of hosting, the website is hosted on a dedicated physical server. This gives website owners complete control over the server and its resources, making it ideal for high-traffic websites that require high performance, security, and customization.
+
+Cloud Hosting: Cloud hosting utilizes a network of servers to host websites and distribute resources dynamically. It is highly scalable and flexible, making it suitable for websites that experience fluctuations in traffic.
+
+Managed Hosting: This type of hosting is similar to dedicated hosting, but with the added benefit of management services. Managed hosting providers handle tasks such as server maintenance, security, backups, and software updates, allowing website owners to focus on their business.
+
+Reseller Hosting: Reseller hosting allows users to resell hosting services to other businesses or clients. This is an excellent option for web designers, developers, and agencies who want to offer hosting as part of their services.
+
+Shared Hosting vs. VPS Hosting vs. Dedicated Server
+
+
+
+
+Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily.
+
+A package manager is a software tool that helps you to easily install, update, and remove software packages (also known as "libraries" or "dependencies") on your computer
+
+
+
+
+
+shadow dom
+
+
+
+
+
+
+
+
+
+what is http
+web browser ko web server sa connect karna  exchange of information k leya
+
+
+ when we open a browser of  that  to create dom tree 
+ 
+ our main dom inside hidden dom called shadow dom 
+ or
+ internal hidden dom hota ha jo khe bhr wala dom sa differnet leay work karta ha
+ the acutall dom style element can not effect the shadow dom
+ by default some html element can provide shadow dom
+ 
+ 
+ why we need it
+ some time we can used multiple style  library if the class match then the style can override 
+ where we used shadow dom
+ if we want to outside css not working then we used shadow dom
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+how to display a web page browser
+
+there are seven part of browser
+(1) user interface
+every thing you see in the browser call user interface
+(2) browser engine
+user interface ka under jetena be button function melta ha  in ko coummunction kar wana browser engine ka kam hota ha
+
+(3) rendering engine
+
+
+(4) netwroking
+(5) js intrepeter
+
+
+(6) ui backend
+to create full input or check box etc
+(7) stroage session
+
+
+cloud hosting
+
+in cloud hosting ma server ka network bana ta ha is ka bad service provide kiya jata ha

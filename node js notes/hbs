@@ -1,0 +1,16 @@
+template engine
+using template engine we can add dynamic data in our website
+res.render()
+pug 
+handkerbars
+ejs
+ejs
+
+
+npm install hbs
+create root floder with name ('view')
+app.set('view engine')
+app.get('',(resp,req)=>{
+rep.render('index')
+})
+

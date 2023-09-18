@@ -1,0 +1,11 @@
+path.extname return the extension name .js
+path.resolve() - Resolves to an absolute path.
+path.normalize() - Normalizes a path, taking care of '..' and '.' parts.
+path.join() - Joins all given path segments together using the platform specific separator as a delimiter, then normalizes the resulting path.
+path.basename() - Returns the last portion of a path.
+path.dirname() - Returns the directory name of a path.
+path.extname() - Returns the extension of the path.
+path.parse() - Returns an object with the parts of the path as properties.
+path.format() - Formats an object obtained from path.parse() back to a path string.
+path.isAbsolute() - Returns true if a path is an absolute path, otherwise false.
+path.relative() - Returns the relative path from one directory to another.

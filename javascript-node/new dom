@@ -1,0 +1,83 @@
+web page property
+
+dom value get
+innerHTML
+innerText
+getattribute()
+getattributenode()
+attributes[index]
+
+
+
+set value
+
+innerHTML
+innerText
+setArtibutes
+name
+removeArrtibute
+
+
+classlist
+className use to class name
+item(index) use to get class
+add
+remove
+replace
+length
+contain
+toggle('classname')
+value give all value of class and also used to all classes value can be cahnge
+
+
+parent node and parent element
+parentNode
+parentElement
+
+children
+childnode
+firstElementchild
+lastelementlastchild
+nextsilbilingElement
+previoussilblingElement
+
+insertbefore
+
+
+
+insertadjacentHTML
+insertadjectElement
+insertadjecttext
+properties
+beforebegin
+afterbegin
+beforeend
+afterend
+element.insertadjectElement('beforebegin','h2')  appendchild and this is similar
+
+
+
+
+createElemnt()
+creteTextnode
+appendchild
+prepend
+before
+after
+append
+
+
+
+replace and remove child
+
+
+let z=document.querySelector('input[type="text"]').style.background='red'
+let x=document.querySelector('a[href="f"]').style.color='green'
+console.log(z)
+console.log(x)
+
+let ele=document.getElementsByName('faizan')[0].style.background='yellow'
+document.getElementsByName('password')[0].style.background='blue'
+
+
+

@@ -1,0 +1,21 @@
+use ref
+
+
+useRef is a hook in React that provides a way to access and persist a value across multiple renders. 
+
+
+problem 
+useEffect without dependencies array to check how many time it can be render 
+
+
+use if ref
+it create a mutable variable which will not re-render the components
+it access the dom element directly
+
+useref can return the object
+
+const count=useref()
+count.current
+
+
+< rf={give me a varaible name to store useref()}  button>

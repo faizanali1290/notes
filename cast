@@ -1,0 +1,14 @@
+cast 
+sudo su
+sudo apt install scrcpy
+scrcpy
+
+
+adb kill-server
+adb usb
+adb tcpip 5555
+ip ade adb connect 10.6.157.127 portnumber
+scrpy
+
+
+E8:c2:DD:26:C5:CE

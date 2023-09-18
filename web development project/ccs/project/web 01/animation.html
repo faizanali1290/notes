@@ -1,0 +1,152 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --background: green;
+
+
+        }
+
+        .co {
+
+            display: flex;
+            
+
+
+        }
+
+        .box {
+
+            margin: 5px;
+
+            flex-direction: row;
+            background-color: var(--background);
+            width: 250px;
+            height: 250px;
+            border: 2px solid red;
+        }
+
+        #box1 {
+            animation-name: flap1;
+            animation-duration: 2s;
+            animation-iteration-count: 3;
+            animation-delay: 1s;
+
+            animation-direction: alternate;
+            animation-timing-function: ease-in;
+            animation-direction: alternate-reverse
+                /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+
+        #box2 {
+            animation-name: flap2;
+            animation-duration: 2s;
+            animation-iteration-count: 3;
+            animation-delay: 1s;
+            /* animation-timing-function: ease; */
+
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+
+        #box3 {
+            text-align: center;
+            justify-content: center;
+            
+            animation-name: flapp;
+            animation-duration: 3s;
+
+            animation-delay: 1s;
+            animation-iteration-count: 2;
+            position: relative;
+
+
+
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+
+        @keyframes flap {
+            from {
+                height: 250px;
+            }
+
+            to {
+                height: 500px;
+            }
+
+
+
+
+
+        }
+
+        @keyframes flap {
+            from {
+                height: 250px;
+            }
+
+            to {
+                height: 500px;
+            }
+        }
+
+        @keyframes flapp {
+            0% {
+
+                top: 0px;
+                left: 0px;
+
+            }
+
+            25% {
+                top: 250px;
+                left: 0;
+
+
+            }
+
+            50% {
+                top: 250;
+                left: 300px;
+                background-color: green;
+            }
+
+
+            75% {
+                top: 0;
+                left: 300px;
+                background-color: brown;
+                
+            }
+
+            100% {
+                top: 0;
+                right: 0px;
+                background-image: url(other/pic/default.jpg);
+                
+            }
+
+
+
+
+
+
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="co">
+        <div class="box" id="box1">></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3">
+            <p>welcome my website</p>
+        </div>
+    </div>
+</body>
+
+</html>

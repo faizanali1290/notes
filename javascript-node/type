@@ -1,0 +1,25 @@
+data types 
+there are two losely  $%*jkt
+primitive/literal
+1- string
+2- number
+2- boolean
+4- null
+6- undefined
+
+referencial
+object
+arry
+console.log
+document.write()
+prompt
+confirmation
+type of()
+
+types of loop
+for loop
+for in loop used to print object for(let variable-name in object-name)
+for out loop (need object ot iterable)
+for map loop
+while loop
+do while loop

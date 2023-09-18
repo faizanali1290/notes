@@ -1,0 +1,14 @@
+git cherry-pic
+we can copy one branch commit to another branch using commit id 
+git stash pop
+
+if we have unTrack file  to remove it using git stash 
+if we want to 
+
+
+
+
+
+" A repository is a central location where version-controlled files and their history are stored. It is like a project folder that contains all the files, directories, and documentation related to a project. The repository in GitHub allows developers to collaborate, track changes, and manage the codebase effectively.
+
+

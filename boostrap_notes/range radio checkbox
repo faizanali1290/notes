@@ -1,0 +1,26 @@
+checkbox
+
+give div with a class
+class='form-check'
+give input with a class class='form-check-input'
+create label with calss="form-check-label"
+
+
+the checkbox we can create neagtive  using this calss as input
+using this id='flexCheckIndeterminate'
+
+the radio can give this id flexRadioDefault
+
+switch class
+
+all have class
+but add div form-switch
+id this id flexSwitchCheckDefault
+
+
+
+
+range
+
+label class='coustomRange1'
+input class='form-range' 

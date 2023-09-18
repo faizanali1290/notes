@@ -1,0 +1,83 @@
+
+*{
+    font-family: sans-serif;
+}
+body{
+    margin-bottom: 500px;
+}
+.homeSection{
+    /* background-color: purple; */
+    background-image: url(../images/what-makes-a-good-team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.overlay{
+    background-color: rgba(190, 0, 217, .6);
+}
+.section{
+    padding: 90px 0;
+}
+.container{
+    width: 90%;
+    margin:0 auto;
+}
+.homeContent{
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    padding: 150px 0;
+}
+.homeContent h1{
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 55px;
+}
+.homeContent h1 .bold{
+    line-height: 40px;
+    font-weight: 900;
+}
+.homeContent p {
+    line-height: 30px;
+}
+.homeContent button {
+    background-color: crimson;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+}
+.aboutSection .iconBox{
+    /* border: 1px solid red; */
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 7px 2px #80808040;
+    margin-bottom: 50px;
+
+}
+.aboutSection .iconBox .icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: purple;
+    display: inline-block;
+    color: white;
+    line-height: 70px;
+
+}
+
+.aboutSection .iconBox h2{
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+.aboutSection .iconBox p{
+    color: #afaeaf;
+
+}

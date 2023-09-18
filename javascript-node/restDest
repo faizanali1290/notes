@@ -1,0 +1,18 @@
+
+				rest and spread operator
+				
+
+if we have more arguments can be input with similar data type then we use  rest operator and rest operator before other data type can be put not effect the rest operator
+// it can be used in function arguments
+
+sperat operator are used to values to spread
+using spread operator can be concat array and object
+spread operator array can can be converted in spreat as pass in array it only used in calling function
+
+
+				array and object destructring
+				
+				
+array value can be assign to variable are called array destucturing
+
+object value can be assign to variable are called array destucturing

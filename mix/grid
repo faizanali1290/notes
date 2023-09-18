@@ -1,0 +1,7 @@
+grid-template-columns:repeat(auto-fill,minmax(250px ,1fr))
+when we used autofill property the minmax() minimum value work here 250px
+
+it try to fill items in columns and  and remaning item can we wrap
+
+grid-template-columns:repeat(auto-fit,minmax(250px ,1fr))
+i work the maxximum value and expanding the available space

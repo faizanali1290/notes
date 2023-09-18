@@ -1,0 +1,5 @@
+logout functionality
+
+res.clearCookie("jwt")
+
+req.user.save()

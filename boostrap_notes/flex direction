@@ -1,0 +1,10 @@
+flex direction classes
+
+flex-xl-row
+flex-md-row-reverse
+flex-column
+flex-column-reverse
+flex-wrap
+flex-nowrap
+flex-wrap-reverse
+flex-xl-fill the flex fill property is used to give coloum 100% width

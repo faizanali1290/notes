@@ -1,0 +1,28 @@
+Server-side rendering (SSR) is a technique used in web development to render web pages on the server and send the HTML content to the client, instead of relying on client-side JavaScript to render the page.
+
+
+Client-side rendering (CSR) is a technique used in web development where the HTML content and JavaScript code are loaded into the user's web browser, and the rendering of the web page is handled on the client-side using JavaScript
+  
+  
+Build time refers to the process of compiling and bundling the source code of a web application into a deployable format. During build time, the source code is transformed and optimized to produce static assets such as HTML, CSS, and JavaScript files, which can be served to users.
+
+Pre-rendering, also known as static site generation (SSG), is a technique where a web page is generated at build time, before the user ever requests the page. The resulting HTML content is then served to the user as a static file, without requiring any server-side processing.
+
+
+
+
+
+getLayout
+
+
+Pre-rendering is the process of generating static HTML files for web pages before the user requests them. These pre-generated HTML files can then be served to the user quickly without requiring additional server-side rendering or client-side processing.
+
+
+A browser is a software application that allows you to access and view information on the internet, such as web pages, images, videos, and other content. It interprets and displays web-related technologies like HTML, CSS, and JavaScript, and provides a user interface for navigating the web and interacting with online content. Examples of popular browsers include Google Chrome, Mozilla Firefox, Microsoft Edge, and Apple Safari.
+
+
+
+Static file generation refers to the process of creating static files that can be served to web clients without the need for dynamic server-side processing.
+
+
+In the context of web development, "pre-rendering" refers to the process of generating HTML content for a web page before it is loaded in the browser. This

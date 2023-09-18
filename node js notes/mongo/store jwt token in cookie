@@ -1,0 +1,14 @@
+store jwt token in cookie
+resp.cookie() is used to set the cookie name and value
+the value parameter may ne string or object converted to json
+
+res.cookie(name,value,[option]  )
+xzN2UCLUaxVG0lumZ5x7lIlvyLg6_UGIL8b9RCYVVoE
+
+ const token = await data.generatetoken()
+                resp.cookie('jwt', token, {
+                    // here we can set expire date
+                    expires: new Date(Date.now() + 30000),
+                    httpOnly: true
+                    // client side script is cookie ko kuch be nhi karaga
+                })

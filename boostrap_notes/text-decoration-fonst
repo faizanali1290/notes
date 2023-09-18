@@ -1,0 +1,70 @@
+text-xl-start
+text-md-center
+text-sm-end
+
+text-lowercase
+text-uppercase
+text-capatilize
+
+
+text wraping and overflow class
+
+
+white-space:normal		.text-wrap
+white-space:nowrap		text-nowrap
+word-wrap:break-word		text-break
+
+
+
+
+font size
+
+
+fs-1 ==2.5rem 
+fs-2==2rem
+fs-3=1.75rem
+fs-4==1.5rem
+fs-5==1.25rem
+
+
+
+font weight classes
+
+
+font-weight:700		fw-bold 
+fw-bloder		fw-bloder
+font-weight:400		fw-normal
+font-weight:300		fw-light
+			fst-italic
+			fst-normal
+			
+			
+			
+			line height clasess
+			
+line-height:1;		lh-1
+line-height:1.25	lh-sm
+line-heighy:1.5		lh-base
+line-height:2;		lh-lg
+ 
+ 
+ 
+ 
+ text decoration classes
+ 
+ text-decoration:undeline;	text-decoration-undeline
+ text-decoration:line-through;	text-decoration-line-through;
+ text-decoration:none		 text-decoration-none
+ 				
+			
+			
+			
+			
+			
+			 
+
+
+
+
+
+

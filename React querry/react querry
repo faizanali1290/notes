@@ -1,0 +1,48 @@
+react querry 
+is used to manage asynchonously manage data
+
+import {useQuery} from 'react-query'
+this is hook that is used to manage async manage data
+
+why we give key beacuse to store on cache we need key
+if we have multiple forexmple 100user can be iterate  useQuerry(["post",gicveUnique])
+const {data,status}=useQuerry("the first is the key",andthe second arrgument is the async function ,faizan,{
+last arrgument represent the congig
+staleTime:2000
+
+this mean that when we can go other tab it can be update data  2000 milisecond
+
+
+
+retry:
+cacheTime:1000
+it mean that how much time the cache data can be clean
+onSuccess:()=>console.log("successfully send data
+onError:()=>console.log("error
+
+
+})
+
+
+
+
+
+react querry dev tool 
+
+npm i --save react-qurry-tool
+
+
+
+
+
+
+
+
+
+
+async function(){
+}
+const {data,status}=usequerry([ne",9,],fetchdata)
+here we can pass some value it can be get on function fetchdata(fristdata,seconddata) it would helpful in pagination
+
+

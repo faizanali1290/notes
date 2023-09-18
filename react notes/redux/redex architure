@@ -1,0 +1,42 @@
+there are four main beam in redex
+1 view
+react ka application ka under dekta ha vo hamara view hota ha
+
+for exemple button images input jo html hota ha
+
+2 Action
+Collect data from component or API
+here we can pass object and return two thing one is data and the other is type
+3 Reducer 
+Get Dats from Action and Send to Store
+4 Store
+State of complete Application
+
+component
+container
+service
+	action
+	reduecer
+	constants
+	
+when data go form action to reducer kon sa data kon sa function ma jaya ga
+
+root reduer
+jetena be reducer ha vo in ko ak file ma combine karta ha
+action
+
+unlal 
+data can flow one direction
+constainer
+connect redux with react
+import  react-redux , action component
+use mapDispatchToProps this is used when we send to redux store
+use mapStateToProps this is used wapas send karna k leya used karta ha
+
+
+wrapper is responsible hoti ha react or redux ko connect kar na k leya
+
+
+
+
+

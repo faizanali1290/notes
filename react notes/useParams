@@ -1,0 +1,14 @@
+useParam
+use params return an object of key/values pairs of url parameters.Use it access match params if the current route
+import {useParams}
+
+<Route path='/user/:name'element={}>
+where you can use
+
+
+const User=()=>{
+const {write the name the name must be same as path name,second path}=useParams()
+return <h1>hello world {name}<h1/>
+}
+
+

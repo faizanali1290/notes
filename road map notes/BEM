@@ -1,0 +1,43 @@
+
+CSS architecture refers to the organization and structure of CSS code within a project. It involves designing and implementing a consistent set of rules and conventions for naming classes, structuring files, and organizing CSS code to make it easier to read, maintain, and scale over time.
+
+A well-designed CSS architecture can help to:
+
+Improve code maintainability and scalability
+Reduce code duplication and inconsistencies
+Enhance code readability and understandability
+
+
+BEM (Block Element Modifier) is a methodology and naming convention used in web development to create scalable and maintainable CSS code. It provides a standardized approach to naming classes, which helps in writing modular, reusable, and easy-to-understand code
+
+
+why it is used
+
+Scalability
+Reusability
+Readability
+Modularity
+
+
+Naming rules
+block-name__elem-name_mod-name_mod-val
+
+Names are written in lowercase Latin letters.
+
+Words are separated by a hyphen (-).
+
+The block name defines the namespace for its elements and modifiers.
+
+The element name is separated from the block name by a double underscore (__).
+
+The modifier name is separated from the block or element name by a single underscore (_).
+
+The modifier value is separated from the modifier name by a single underscore (_).
+
+For boolean modifiers, the value is not included in the name.
+
+
+
+A preprocessor is a software tool that allows developers to write code in a language that is easier to read and write, and then converts it into another language that can be executed by a computer.
+
+
